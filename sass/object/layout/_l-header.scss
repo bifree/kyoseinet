@@ -1,0 +1,7 @@
+.l-header {
+  width: 80%;
+  margin: 0 auto;
+  @include mq(sp) {
+    width: 90%;
+  }
+}

@@ -1,0 +1,41 @@
+.header {
+  background: rgb(255,255,255);
+  background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,162,202,1) 5%, rgba(255,206,225,1) 20%, rgba(255,217,205,1) 30%, rgba(255,238,224,1) 40%, rgba(255,248,242,1) 45%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 53%, rgba(248,254,248,1) 55%, rgba(231,255,236,1) 60%, rgba(199,255,210,1) 70%, rgba(161,240,244,1) 80%, rgba(120,182,255,1) 95%, rgba(255,255,255,1) 100%);
+  .header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header_logo {
+    width: rem(300);
+    height: rem(100);
+    @include mq(sp) {
+      width: rem(200);
+      height: rem(60);
+    }
+  }
+  .header_logo-img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    // background: lightgray;
+  }
+  .header_nav-inner {
+    display: flex;
+  }
+  .header_nav-list {
+    font-size: rem(22);
+    margin-right: rem(30);
+    height: rem(70);
+  }
+  .header_nav-list--link {
+    display: inline-block;
+    padding: rem(20) 0;
+  }
+
+  .header_nav-sp {
+    line-height: 0;
+  }
+
+}

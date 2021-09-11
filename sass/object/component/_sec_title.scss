@@ -1,0 +1,18 @@
+.sec_title {
+  font-size: rem(32);
+  span {
+    display: flex;
+    align-items: center;
+    color: $sub-color;
+    font-size: rem(18);
+    text-transform: uppercase;
+    &::before {
+      content: '';
+      display: inline-block;
+      margin-right: rem(20);
+      width: rem(40);
+      height: rem(1);
+      background-color: $sub-color;
+    }
+  }
+}

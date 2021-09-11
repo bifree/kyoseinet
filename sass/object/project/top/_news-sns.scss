@@ -1,0 +1,43 @@
+.news-sns {
+  .ns_flex {
+    display: flex;
+    align-items: flex-end;
+    @include mq(sp) {
+      flex-direction: column;
+    }
+  }
+  .news_block {
+    max-width: 800px;
+    width: 100%;
+  }
+  .news_title {
+
+  }
+  .news_archive {
+
+  }
+  .news_lists {
+
+  }
+  .news_list {
+
+  }
+
+  .sns_block {
+    flex: 1;
+    margin: inherit;
+  }
+  .sns_inner {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sns_box {
+    padding: 10px;
+  }
+  .sns_box a {
+    display: inline-block;
+  }
+  .sns_box a i {
+    font-size: 40px;
+  }
+}

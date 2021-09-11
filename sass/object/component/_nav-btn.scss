@@ -1,0 +1,20 @@
+.nav-btn {
+  background: none;
+  border: none;
+  position: relative;
+  padding: rem(10) 0;
+  span {
+    display: block;
+    width: rem(40);
+    height: rem(2);
+    background: $sub-background;
+    &:first-child {
+      position: absolute;
+      top: 0;
+    }
+    &:last-child {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}

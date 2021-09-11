@@ -1,0 +1,35 @@
+
+.u-hidden-pc {
+	// PC時に非表示
+
+	@include mq("pc") {
+		display: none;
+	}
+}
+
+.u-hidden-sp {
+	// スマホ時に非表示
+
+	@include mq("sp") {
+		display: none;
+	}
+}
+
+.u-hidden-tab {
+	// タブレット時に非表示
+
+	@include mq("tab") {
+		display: none;
+	}
+}
+
+.u-hidden-tab_sp {
+	// タブレットとスマホ時に非表示
+
+	@include mq("tab") {
+		display: none;
+	}
+	@include mq("sp") {
+		display: none;
+	}
+}
