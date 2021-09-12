@@ -18,6 +18,12 @@
     <hr class="hr">
     <div class="goo-cal">
       <p>ここにGoogleカレンダーのiframeを入れる</p>
+      <div class="to_contact">
+        <a href="" class="contact_btn">
+          お問い合わせはこちら
+          <div class="border_arrow"></div>
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -40,8 +46,8 @@
     </div>
     <div class="sns_block">
       <ul class="sns_inner">
-        <li class="sns_box sns_twitter"><a href=""><i class="fab fa-twitter"></i></a></li>
-        <li class="sns_box sns_facebook"><a href=""><i class="fab fa-facebook"></i></a></li>
+        <li class="sns_box sns_twitter"><a href="" class="faa-parent animated-hover"><i class="fab fa-twitter faa-pulse"></i></a></li>
+        <li class="sns_box sns_facebook"><a href="" class="faa-parent animated-hover"><i class="fab fa-facebook faa-pulse"></i></a></li>
       </ul>
     </div>
   </div>

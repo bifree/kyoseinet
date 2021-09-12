@@ -348,7 +348,7 @@ body {
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background: #fff;
+	background: #FFFAF0;
 	color: #333;
 	font-family: "";
 	font-size: 16px;
@@ -591,6 +591,11 @@ summary {
 
 /* Remove all animations and transitions for people that prefer not to see them */
 
+.l-footer {
+	margin-top: 30px;
+	padding: 20px 0;
+}
+
 .l-header {
 	margin: 0 auto;
 	width: 80%;
@@ -605,6 +610,14 @@ summary {
 	width: 100%;
 }
 
+.border_arrow {
+	border-bottom: 1px solid #333;
+	border-right: 1px solid #333;
+	height: 0.5rem;
+	transform: skew(45deg);
+	width: 2.8125rem;
+}
+
 .nav-btn {
 	background: none;
 	border: none;
@@ -613,7 +626,7 @@ summary {
 }
 
 .nav-btn span {
-	background: #555;
+	background: #fff;
 	display: block;
 	height: 0.125rem;
 	width: 2.5rem;
@@ -648,6 +661,46 @@ summary {
 	height: 0.0625rem;
 	margin-right: 1.25rem;
 	width: 2.5rem;
+}
+
+.sns_box {
+	background: #fff;
+	border-bottom: 2px solid #999;
+	border-left: 1px solid transparent;
+	border-radius: 0.5rem;
+	border-right: 3px solid #999;
+	border-top: 1px solid transparent;
+	margin-right: 0.9375rem;
+	transition: all 0.3s ease;
+}
+
+.sns_box:last-child {
+	margin-right: 0;
+}
+
+.sns_box:hover {
+	border-bottom: 1px solid transparent;
+	border-left: 3px solid #999;
+	border-right: 1px solid transparent;
+	border-top: 2px solid #999;
+}
+
+.sns_box a {
+	display: inline-block;
+	padding: 0.9375rem;
+}
+
+.sns_box a i {
+	font-size: 3.125rem;
+}
+
+.footer {
+	background: #555;
+}
+
+.footer .copylight {
+	color: white;
+	text-align: center;
 }
 
 .header {
@@ -702,6 +755,30 @@ summary {
 	width: 100%;
 }
 
+.news-sns .news_archive {
+	margin-top: 0.625rem;
+}
+
+.news-sns .news_lists {
+	background: #fff;
+	border: 1px solid #999;
+	border-radius: 0.5rem;
+	padding: 1.25rem 0.9375rem;
+}
+
+.news-sns .news_list {
+	font-size: 1.125rem;
+	margin-top: 0.625rem;
+}
+
+.news-sns .news_list:first-child {
+	margin-top: 0;
+}
+
+.news-sns .news_list time {
+	margin-right: 0.75rem;
+}
+
 .news-sns .sns_block {
 	flex: 1;
 	margin: inherit;
@@ -712,16 +789,16 @@ summary {
 	justify-content: flex-end;
 }
 
-.news-sns .sns_box {
-	padding: 10px;
+.news-sns .sns_box i.fa-twitter {
+	color: #1DA1F2;
 }
 
-.news-sns .sns_box a {
-	display: inline-block;
+.news-sns .sns_box i.fa-facebook {
+	color: #1877f2;
 }
 
-.news-sns .sns_box a i {
-	font-size: 40px;
+.schedule .schedule_discription {
+	font-size: 1.125rem;
 }
 
 .schedule .goo-cal iframe {
@@ -730,6 +807,37 @@ summary {
 	padding-left: 25px;
 	padding-right: 25px;
 	width: 100%;
+}
+
+.schedule .to_contact {
+	margin-top: 2.1875rem;
+	text-align: center;
+}
+
+.schedule .contact_btn {
+	background: #00CC99;
+	border-radius: 0.5rem;
+	display: inline-block;
+	font-size: 1.25rem;
+	opacity: 0.7;
+	padding: 0.875rem 2.5rem;
+	position: relative;
+	transition: all 0.3s ease;
+}
+
+.schedule .contact_btn:hover {
+	opacity: 1;
+}
+
+.schedule .contact_btn:hover .border_arrow {
+	left: -8%;
+}
+
+.schedule .contact_btn .border_arrow {
+	left: -12%;
+	position: absolute;
+	top: 40%;
+	transition: all 0.3s ease;
 }
 
 .top_mv {

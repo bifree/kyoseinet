@@ -14,13 +14,23 @@
 
   }
   .news_archive {
-
+    margin-top: rem(10);
   }
   .news_lists {
-
+    padding: rem(20) rem(15);
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: rem(8);
   }
   .news_list {
-
+    font-size: rem(18);
+    margin-top: rem(10);
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  .news_list time {
+    margin-right: rem(12);
   }
 
   .sns_block {
@@ -31,13 +41,11 @@
     display: flex;
     justify-content: flex-end;
   }
-  .sns_box {
-    padding: 10px;
+
+  .sns_box i.fa-twitter {
+    color: #1DA1F2;
   }
-  .sns_box a {
-    display: inline-block;
-  }
-  .sns_box a i {
-    font-size: 40px;
+  .sns_box i.fa-facebook {
+    color: #1877f2;
   }
 }
