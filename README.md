@@ -1,7 +1,7 @@
 # wp-flocss-rem-fromPCの使い方
 
 
-- WordPressThemeは必要に応じて変更してください
+- WordPressThemeは必要に応じて変更
 	- WordPressTheme
 	- sass
 	- gulpfile.js
@@ -20,5 +20,6 @@
 
 ## 使い方
 - npm i でインストール → node_modulesが生成されればOK
-- npx gulp で起動
+- npx gulp で起動(Windows)
+- gulp で起動(Mac)
 
