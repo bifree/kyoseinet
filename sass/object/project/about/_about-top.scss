@@ -1,0 +1,39 @@
+.about-top {
+  .about-top__inner {
+    margin-top: rem(50);
+  }
+  .about-top__outline {
+    font-size: rem(26);
+    width: 75%;
+    height: rem(300);
+    padding: rem(30) rem(20);
+    background: white;
+    border-radius: rem(8);
+  }
+  .about-top__sexual {
+    position: absolute;
+    right: 0;
+    bottom: rem(-30);
+    width: 50%;
+    font-size: rem(22);
+    padding: rem(20);
+    background: $sub-background;
+    border: 2px solid $sub-color;
+    border-radius: 50px;
+    &::before {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 30%;
+      left: rem(-17);
+      width: rem(33);
+      height: rem(40);
+      background: $sub-background;
+      border: 2px solid $sub-color;
+      border-bottom: 2px;
+      border-right: 2px;
+      transform: rotate(-38deg);
+      -webkit-transform: rotate(-38deg);
+    }
+  }
+}

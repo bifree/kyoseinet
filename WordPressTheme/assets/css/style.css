@@ -731,9 +731,14 @@ summary {
 }
 
 .header .header_nav-list {
-	font-size: 1.375rem;
+	font-size: 1.25rem;
 	height: 4.375rem;
-	margin-right: 1.875rem;
+	letter-spacing: 0.0625rem;
+	margin-right: 3.125rem;
+}
+
+.header .header_nav-list:last-child {
+	margin-right: 0;
 }
 
 .header .header_nav-list--link {
@@ -743,6 +748,176 @@ summary {
 
 .header .header_nav-sp {
 	line-height: 0;
+}
+
+.about-top .about-top__inner {
+	margin-top: 3.125rem;
+}
+
+.about-top .about-top__outline {
+	background: white;
+	border-radius: 0.5rem;
+	font-size: 1.625rem;
+	height: 18.75rem;
+	padding: 1.875rem 1.25rem;
+	width: 75%;
+}
+
+.about-top .about-top__sexual {
+	background: #fff;
+	border: 2px solid #498ee0;
+	border-radius: 50px;
+	bottom: -1.875rem;
+	font-size: 1.375rem;
+	padding: 1.25rem;
+	position: absolute;
+	right: 0;
+	width: 50%;
+}
+
+.about-top .about-top__sexual::before {
+	-webkit-transform: rotate(-38deg);
+	background: #fff;
+	border: 2px solid #498ee0;
+	border-bottom: 2px;
+	border-right: 2px;
+	content: '';
+	display: block;
+	height: 2.5rem;
+	left: -1.0625rem;
+	position: absolute;
+	top: 30%;
+	transform: rotate(-38deg);
+	width: 2.0625rem;
+}
+
+.card .card__inner {
+	background: #fff;
+	border-radius: 0.5rem;
+	box-shadow: 5px 5px 10px -8px #777;
+	display: flex;
+	justify-content: flex-start;
+	padding: 0 1.875rem;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+.card .card__lists {
+	align-items: center;
+	display: flex;
+}
+
+.card .card__lists-item {
+	color: #333;
+}
+
+.card .card__lists-item:hover {
+	color: #498ee0;
+	opacity: 0.7;
+}
+
+.card .card__lists-item:hover .card__lists-item i {
+	color: #498ee0;
+}
+
+.card .card__lists-item i {
+	font-size: 1.5625rem;
+}
+
+.card .card__list {
+	display: inline-block;
+	font-size: 1.125rem;
+	font-weight: 700;
+	letter-spacing: 0.125rem;
+	padding: 0.625rem 1.875rem 0.625rem 0.625rem;
+}
+
+.content .content__inner {
+	margin-top: 6.25rem;
+}
+
+.content .content__block {
+	position: relative;
+}
+
+.content .content__block-title {
+	display: inline-block;
+}
+
+.content .content__block-text {
+	font-size: 2.25rem;
+	letter-spacing: 0.125rem;
+	padding: 0.625rem 6.25rem 0.625rem 3.75rem;
+	position: relative;
+}
+
+.content .content__block-text::after {
+	background: #fff;
+	border-radius: 0.5rem;
+	bottom: 0.3125rem;
+	content: "";
+	display: block;
+	height: 50%;
+	left: 0.625rem;
+	position: absolute;
+	width: 100%;
+	z-index: -10;
+}
+
+.content .content__block-text .content__block-subtext {
+	color: #00CC99;
+	font-family: "Caveat", cursive;
+	font-size: 4.375rem;
+	font-weight: 400;
+	left: 40%;
+	position: absolute;
+	text-transform: capitalize;
+	top: -0.625rem;
+	transform: rotate(-10deg);
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	z-index: -1;
+}
+
+.greet {
+	display: flex;
+}
+
+.greet .greet__boss {
+	background: lightgrey;
+	border-radius: 0.5rem;
+	height: 0;
+	padding-bottom: 30%;
+	position: relative;
+	width: 40%;
+}
+
+.greet .greet__boss-img {
+	-o-object-fit: cover;
+	height: 100%;
+	left: 0;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.greet .content__flex {
+	margin: 0 3.125rem;
+	width: calc(100% - 40%);
+}
+
+.vision .vision__discription {
+	margin: 0 0 0 auto;
+	padding: 1.875rem 0.9375rem;
+	width: 80%;
+}
+
+.vision .vision__discription-text {
+	font-size: 1.5rem;
+	letter-spacing: 0.125rem;
 }
 
 .news-sns .ns_flex {
@@ -848,6 +1023,8 @@ summary {
 .top_mv .top_text {
 	font-size: 1.75rem;
 	left: 50%;
+	letter-spacing: 0.125rem;
+	line-height: 2;
 	padding-left: 25px;
 	padding-right: 25px;
 	position: absolute;
@@ -859,6 +1036,14 @@ summary {
 
 .top_mv .f_bold {
 	font-weight: 700;
+}
+
+.sp_display {
+	display: none;
+}
+
+.sp-tab_display {
+	display: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -906,8 +1091,8 @@ html {
 	display: none;
 }
 
-.u-hidden-tab_sp {
-	display: none;
+.sp-tab_display {
+	display: block;
 }
 
 }
@@ -944,12 +1129,18 @@ html {
 	padding-right: 20px;
 }
 
+.top_mv .top_text {
+	font-size: 1.375rem;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .u-hidden-sp {
 	display: none;
 }
 
-.u-hidden-tab_sp {
-	display: none;
+.sp_display {
+	display: block;
 }
 
 }

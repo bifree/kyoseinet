@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 <div class="top_mv">
   <div class="top_text">
-    私たち<br class="u-hidden-pc">「<span class="f_bold">NPO法人 共生社会を作るセクシュアル・<br class="u-hidden-pc">
-    マイノリティ支援全国ネットワーク</span>」は、<br>
-    セクシュアル・マイノリティへの根強い偏見を解消し、<br>
-    その視点を国や地方自治体の政策に反映させるための、<br>
-    当事者、支援者、専門家などで構成される全国組織です。
+    私たち<br class="sp_display">「<span class="f_bold">NPO法人 共生社会を作る<br>
+    性的マイノリティ<br class="sp_display">支援全国ネットワーク</span>」は、<br>
+    セクシュアル・マイノリティへの<br class="sp_display">根強い偏見を解消し、<br>
+    その視点を国や地方自治体の<br class="sp_display">政策に反映させるための、<br>
+    当事者、支援者、専門家などで<br class="sp_display">構成される全国組織です。
   </div>
 </div>
 
@@ -19,7 +19,7 @@
     <div class="goo-cal">
       <p>ここにGoogleカレンダーのiframeを入れる</p>
       <div class="to_contact">
-        <a href="" class="contact_btn">
+        <a href="<?php echo home_url('/contact'); ?>" class="contact_btn">
           お問い合わせはこちら
           <div class="border_arrow"></div>
         </a>

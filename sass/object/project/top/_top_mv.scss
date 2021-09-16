@@ -8,9 +8,16 @@
     transform: translateY(-50%) translateX(-50%);
     text-align: center;
     font-size: rem(28);
+    line-height: 2;
+    letter-spacing: rem(2);
     width: 100%;
     padding-right: $padding-pc;
     padding-left: $padding-pc;
+    @include mq(sp) {
+      font-size: rem(22);
+      padding-right: $padding-sp;
+      padding-left: $padding-sp;
+    }
   }
   .f_bold {
     font-weight: 700;

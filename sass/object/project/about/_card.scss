@@ -1,0 +1,35 @@
+.card {
+  .card__inner {
+    display: flex;
+    padding: 0 rem(30);
+    justify-content: flex-start;
+    background: $sub-background;
+    width: fit-content;
+    border-radius: rem(8);
+    box-shadow: 5px 5px 10px -8px #777;
+  }
+  .card__lists {
+    display: flex;
+    align-items: center;
+  }
+  .card__lists-item {
+    color: $text-color;
+    &:hover {
+      color: $sub-color;
+      opacity: $opacity;
+      .card__lists-item i {
+        color: $sub-color;
+      }
+    }
+    i {
+      font-size: rem(25);
+    }
+  }
+  .card__list {
+    display: inline-block;
+    font-size: rem(18);
+    font-weight: 700;
+    letter-spacing: rem(2);
+    padding: rem(10) rem(30) rem(10) rem(10);
+  }
+}

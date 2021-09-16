@@ -9,6 +9,9 @@
   <?php wp_head(); ?>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css" type="text/css" media="all" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
@@ -16,18 +19,18 @@
     <header class="header">
       <div class="l-header header_inner">
         <h1 class="header_logo">
-          <a href="" class="header_logo-img">
+          <a href="<?php echo home_url('/'); ?>" class="header_logo-img">
             <img class="img__layer" src="" alt="ロゴ">
           </a>
         </h1>
-        <div class="header_nav u-hidden-tab_sp">
+        <div class="header_nav u-hidden-tab">
           <ul class="header_nav-inner">
-            <li class="header_nav-list"><a href="" class="header_nav-list--link">団体について</a></li>
-            <li class="header_nav-list"><a href="" class="header_nav-list--link">活動内容</a></li>
-            <li class="header_nav-list"><a href="" class="header_nav-list--link">寄付・お問い合わせ</a></li>
+            <li class="header_nav-list"><a href="<?php echo home_url('/about'); ?>" class="header_nav-list--link">団体について</a></li>
+            <li class="header_nav-list"><a href="<?php echo home_url('/avtivity'); ?>" class="header_nav-list--link">活動内容</a></li>
+            <li class="header_nav-list"><a href="<?php echo home_url('/'); ?>" class="header_nav-list--link">寄付・お問い合わせ</a></li>
           </ul>
         </div>
-        <div class="header_nav-sp u-hidden-pc">
+        <div class="header_nav-sp sp-tab_display">
           <button class="nav-btn" type="button" aria-label="メニュー">
             <span></span>
             <span></span>

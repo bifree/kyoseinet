@@ -1,0 +1,29 @@
+.greet {
+  display: flex;
+  .greet__boss {
+    width: 40%;
+    height: 0;
+    padding-bottom: 30%;
+    border-radius: rem(8);
+    position: relative;
+    background: lightgrey;
+  }
+  .greet__boss-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .content__flex {
+    width: calc(100% - 40%);
+    margin: 0 rem(50);
+  }
+  .greet__discription {
+
+  }
+  .greet__discription-text {
+
+  }
+}

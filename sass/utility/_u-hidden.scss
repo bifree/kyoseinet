@@ -23,13 +23,18 @@
 	}
 }
 
-.u-hidden-tab_sp {
-	// タブレットとスマホ時に非表示
-
-	@include mq("tab") {
-		display: none;
+//スマホだけ表示（PCとタブレット非表示）
+.sp_display {
+	display: none;
+	@include mq(sp) {
+		display: block;
 	}
-	@include mq("sp") {
-		display: none;
+}
+
+//スマホとタブレットだけ表示（1023pxまで）
+.sp-tab_display {
+	display: none;
+	@include mq(tab) {
+		display: block;
 	}
 }

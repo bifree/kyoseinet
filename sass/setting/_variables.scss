@@ -10,7 +10,8 @@ $button-color: #00CC99; // ボタンカラー
 $opacity: 0.7; // 透過度
 
 // フォント
-$font-family-base: "";// ベースフォント
+$font-family-base: ""; // ベースフォント
+$font-family-en: 'Caveat', cursive; // 英字フォント
 $font-size-base: 16px; // ベースフォントサイズ
 $font-weight-base: 400; // ベースフォントウェイト
 $lh: 1.6; // ベース行間
@@ -25,9 +26,9 @@ $l-pc: 1440px; // パソコン幅
 
 // ブレークポイント（PC基準）
 $breakpoints: (
-	"sp": "screen and (max-width: #{$l-sp - 1})",
-	"tab": "screen and (max-width: #{$l-tab - 1 })",
-	"pc": "screen and (min-width: #{$l-pc})",
+	"sp": "screen and (max-width: #{$l-sp - 1})", //767pxまで
+	"tab": "screen and (max-width: #{$l-tab - 1 })", //1023pxまで
+	"pc": "screen and (min-width: #{$l-pc})", //1440px以上
 );
 
 
