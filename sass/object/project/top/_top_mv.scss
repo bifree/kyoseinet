@@ -1,14 +1,20 @@
 .top_mv {
   position: relative;
-  height: 80vh;
+  height: 100vh;
+  padding-top: rem(100);
+  background-image: url(../img/top.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color:rgba(255,255,255,0.5);
+  background-blend-mode:lighten;
   .top_text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     text-align: center;
-    font-size: rem(28);
-    line-height: 2;
+    font-size: rem(36);
+    line-height: 2.3;
     letter-spacing: rem(2);
     width: 100%;
     padding-right: $padding-pc;

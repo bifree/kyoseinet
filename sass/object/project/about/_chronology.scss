@@ -1,0 +1,15 @@
+.chronology {
+  .chronology__inner {
+    padding: rem(20) rem(10);
+  }
+  .chronology__list {
+    font-size: rem(22);
+    padding: rem(15) 0 rem(15) rem(15);
+    border-bottom: 2px solid #777;
+  }
+  .chronology__date {
+    font-size: rem(18);
+    width: 15%;
+    display: inline-block;
+  }
+}

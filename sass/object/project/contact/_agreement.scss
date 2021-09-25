@@ -1,0 +1,36 @@
+.agreement {
+  .agreement__text {
+    margin-top: rem(20);
+    line-height: 2;
+  }
+  .agreement__checkbox input {
+    &:checked {
+      + span {
+        color: inherit;
+      }
+      + span::before {
+        color: inherit;
+      }
+      + span::after {
+        width: rem(10);
+        height: rem(10);
+        left: rem(-3);
+        margin-top: rem(-6);
+      }
+    }
+  }
+  .agreement__checkbox input+span {
+    &::before {
+      width: rem(20);
+      height: rem(20);
+      margin-top: rem(-11);
+      border-radius: rem(4);
+    }
+    &:hover::after {
+      width: rem(10);
+      height: rem(10);
+      left: rem(-3);
+      margin-top: rem(-6);
+    }
+  }
+}

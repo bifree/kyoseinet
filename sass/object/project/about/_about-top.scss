@@ -1,18 +1,23 @@
 .about-top {
   .about-top__inner {
     margin-top: rem(50);
+    padding-bottom: rem(50);
   }
   .about-top__outline {
     font-size: rem(26);
     width: 75%;
     height: rem(300);
-    padding: rem(30) rem(20);
-    background: white;
+    padding: rem(30) rem(25);
+    background-image: url(../img/gaiyou.jpg);
+    background-size: cover;
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
     border-radius: rem(8);
+    line-height: 2;
   }
   .about-top__sexual {
     position: absolute;
-    right: 0;
+    right: rem(-50);
     bottom: rem(-30);
     width: 50%;
     font-size: rem(22);

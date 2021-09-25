@@ -1,0 +1,51 @@
+#page {
+  .page__inner {
+    margin-top: rem(100);
+  }
+  .page__title {
+    text-align: center;
+    padding: rem(30) 0 rem(30);
+  }
+  .page__title-en {
+    font-size: rem(20);
+    text-transform: capitalize;
+  }
+  .page__title-en--gre,.page__title-en--ore,.page__title-en--pur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::before,&::after {
+      content: "";
+      width: rem(50);
+      height: rem(1);
+    }
+    &::before {
+      margin-right: rem(20);
+    }
+    &::after {
+      margin-left: rem(20);
+    }
+  }
+  .page__title-en--gre {
+    color: $logo-color-gre;
+    &::before,&::after {
+      background: $logo-color-gre;
+    }
+  }
+  .page__title-en--ore {
+    color: $logo-color-ore;
+    &::before,&::after {
+      background: $logo-color-ore;
+    }
+  }
+  .page__title-en--pur {
+    color: $logo-color-pur;
+    &::before,&::after {
+      background: $logo-color-pur;
+    }
+  }
+  .page__title-jp {
+    font-size: rem(40);
+    letter-spacing: rem(4);
+  }
+}

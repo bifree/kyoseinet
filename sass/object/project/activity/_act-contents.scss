@@ -1,0 +1,67 @@
+.act-contents {
+  .act-contents__block {
+    border-radius: rem(8);
+    box-shadow: 0px 10px 25px -10px #777;
+    margin-top: rem(120);
+    position: relative;
+    &:first-child {
+      margin-top: rem(70);
+    }
+  }
+  //(+8)のカラーコード指定
+  .act-contents__block--red {
+    background: #f9cfcc;
+    &::after {
+      right: -5%;
+      background-image: url(../img/act_seisaku.png);
+    }
+  }
+  .act-contents__block--ore {
+    background: #fee8d2;
+    &::after {
+      left: -5%;
+      background-image: url(../img/act_sien.png);
+    }
+  }
+  .act-contents__block--blu {
+    background: #d5eff8;
+    &::after {
+      right: -5%;
+      background-image: url(../img/act_kyoiku.png);
+    }
+  }
+  .act-contents__block--gre {
+    background: #a7e0b3;
+    &::after {
+      left: -5%;
+      background-image: url(../img/act_kyozai.png);
+    }
+  }
+  .act-contents__block--yel {
+    background: #fff5da;
+    &::after {
+      right: -5%;
+      background-image: url(../img/act_zyoho.png);
+    }
+  }
+  .act-contents__block--pur {
+    background: #dcdaef;
+    &::after {
+      left: -5%;
+      background-image: url(../img/act_net.png);
+    }
+  }
+  .act-contents__block--red,.act-contents__block--ore,.act-contents__block--blu,.act-contents__block--gre,.act-contents__block--yel,.act-contents__block--pur {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: rem(300);
+      height: rem(300);
+      transform: translateY(-50%);
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: 1;
+    }
+  }
+}

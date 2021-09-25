@@ -1,9 +1,12 @@
 .greet {
-  display: flex;
+  .greet__inner {
+    display: flex;
+  }
   .greet__boss {
     width: 40%;
     height: 0;
     padding-bottom: 30%;
+    margin-top: rem(30);
     border-radius: rem(8);
     position: relative;
     background: lightgrey;
@@ -21,9 +24,10 @@
     margin: 0 rem(50);
   }
   .greet__discription {
-
+    margin-top: rem(30);
+    padding: 0 rem(30);
   }
   .greet__discription-text {
-
+    font-size: rem(22);
   }
 }

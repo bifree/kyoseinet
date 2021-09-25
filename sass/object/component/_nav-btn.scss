@@ -7,8 +7,7 @@
     display: block;
     width: rem(40);
     height: rem(2);
-    background: $sub-background;
-    // background: $text-color;
+    background: $text-color;
     &:first-child {
       position: absolute;
       top: 0;

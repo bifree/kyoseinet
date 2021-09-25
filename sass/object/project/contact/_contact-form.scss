@@ -1,0 +1,48 @@
+.contact-form {
+  width: 80%;
+  margin: rem(20) auto 0;
+  padding: 0 rem(50) rem(40);
+  background: #f6f6f6;
+  border-radius: rem(8);
+  .form-label {
+    font-size: rem(18);
+    font-weight: 700;
+    width: auto;
+    margin-top: rem(30);
+  }
+  .form-tag {
+    margin: 0 rem(5);
+    background: #cc000e;
+    border-radius: rem(4);
+    padding: rem(5) rem(8);
+    font-size: rem(14);
+    font-weight: 400;
+    color: $sub-background;
+  }
+  .form-box {
+    margin-top: rem(10);
+    border-radius: rem(8);
+    background: $sub-background;
+    &:focus {
+      border-color: $sub-color;
+    }
+    @include mq(tab) {
+      width: 100%;
+    }
+  }
+  input.contact_btn {
+    display: inline-block;
+    padding: rem(14) rem(40);
+    font-size: rem(20);
+    background: $button-color;
+    border-radius: rem(8);
+    opacity: $opacity;
+    border: none;
+    position: relative;
+    transition: all 0.3s ease;
+    &:hover {
+      opacity: 1;
+      color: inherit;
+    }
+  }
+}

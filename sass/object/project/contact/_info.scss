@@ -1,0 +1,16 @@
+.info {
+  .info__inner {
+    width: 90%;
+    margin: rem(15) auto 0;
+  }
+  .info__items {
+    display: flex;
+    font-size: rem(18);
+    margin-top: rem(5);
+  }
+  .info__item {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,43 @@
+.cosu-block {
+  .cosu-block__inner {
+    margin-top: rem(50);
+  }
+  .cosu-block__title {
+    font-size: rem(28);
+    letter-spacing: rem(2);
+  }
+  .cosu-block__text {
+    font-size: rem(22);
+    letter-spacing: rem(2);
+    margin-top: rem(15);
+  }
+}
+
+.contact__inner {
+  margin-top: rem(100) !important;
+}
+
+.support__title,.contact__title {
+  display: inline-block;
+  border: 3px solid #000;
+  border-radius: 0 rem(8) rem(8) rem(8);
+  padding: rem(5) rem(60);
+  position: relative;
+  &::before {
+    font-size: 14px;
+    position: absolute;
+    top: rem(-24);
+    left: rem(-3);
+    height: rem(24);
+    padding: 0 rem(15);
+    color: #fff;
+    border-radius: rem(8) rem(8) 0 0;
+    background: #000;
+  }
+}
+.support__title::before {
+  content: 'SUPPORT';
+}
+.contact__title::before {
+  content: 'CONTACT';
+}

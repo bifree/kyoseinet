@@ -1,0 +1,38 @@
+.item {
+  .item__inner {
+    margin-left: rem(80);
+    padding: rem(40) 0 rem(80);
+  }
+  .item__list {
+    display: flex;
+    font-size: rem(20);
+    letter-spacing: rem(1);
+    padding: rem(20);
+    margin-top: rem(25);
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(1rem);
+    border-radius: rem(8);
+  }
+  .item__list-title {
+    width: 15%;
+    font-weight: 700;
+  }
+  .item__list-title--link {
+    color: $sub-color;
+    display: inline-block;
+    padding: 0 rem(8);
+    &:hover {
+      opacity: $opacity;
+      text-decoration: underline;
+    }
+  }
+  .item__list__member {
+
+  }
+  .item__list__member-name {
+    margin-top: rem(15);
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

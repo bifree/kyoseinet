@@ -1,0 +1,22 @@
+.about-us {
+  .about-us__bgimg {
+    height: 100%;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(../img/aboutus.jpg);
+      background-size: cover;
+      background-color:rgba(255,255,255,0.6);
+      background-blend-mode:lighten;
+      background-position: bottom;
+      z-index: -10;
+    }
+  }
+  .about-us__block {
+    padding-top: rem(20);
+  }
+}

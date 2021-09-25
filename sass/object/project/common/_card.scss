@@ -2,7 +2,7 @@
   .card__inner {
     display: flex;
     padding: 0 rem(30);
-    justify-content: flex-start;
+    margin: 0 auto;
     background: $sub-background;
     width: fit-content;
     border-radius: rem(8);
@@ -14,6 +14,7 @@
   }
   .card__lists-item {
     color: $text-color;
+    padding: 0 rem(20);
     &:hover {
       color: $sub-color;
       opacity: $opacity;
@@ -30,6 +31,6 @@
     font-size: rem(18);
     font-weight: 700;
     letter-spacing: rem(2);
-    padding: rem(10) rem(30) rem(10) rem(10);
+    padding: rem(10) 0 rem(10) rem(10);
   }
 }

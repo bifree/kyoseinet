@@ -1,17 +1,25 @@
 .header {
-  background: rgb(255,255,255);
-  background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,162,202,1) 5%, rgba(255,206,225,1) 20%, rgba(255,217,205,1) 30%, rgba(255,238,224,1) 40%, rgba(255,248,242,1) 45%, rgba(255,255,255,1) 48%, rgba(255,255,255,1) 53%, rgba(248,254,248,1) 55%, rgba(231,255,236,1) 60%, rgba(199,255,210,1) 70%, rgba(161,240,244,1) 80%, rgba(120,182,255,1) 95%, rgba(255,255,255,1) 100%);
+  background: $sub-background;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
   .header_inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: rem(100);
+    @include mq(sp) {
+      height: rem(60);
+    }
   }
   .header_logo {
     width: rem(300);
-    height: rem(100);
+    height: inherit;
+    padding: rem(10) 0;
     @include mq(sp) {
       width: rem(200);
-      height: rem(60);
     }
   }
   .header_logo-img {
@@ -19,18 +27,70 @@
     width: 100%;
     height: 100%;
     position: relative;
-    // background: white;
   }
   .header_nav-inner {
     display: flex;
   }
   .header_nav-list {
-    font-size: rem(20);
+    font-size: rem(18);
+    font-weight: 700;
     letter-spacing: rem(1);
-    margin-right: rem(50);
+    margin-right: rem(60);
     height: rem(70);
+    position: relative;
+    &:first-child {
+      &:hover {
+        opacity: $opacity;
+      }
+    }
     &:last-child {
       margin-right: 0;
+    }
+  }
+  .header_nav-list--green,.header_nav-list--orange,.header_nav-list--purple {
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: rem(10);
+      left: 0;
+      width: 100%;
+      height: rem(2);
+      transition: all .3s;
+      transform: scale(0, 1);
+      transform-origin: left top;
+    }
+  }
+  .header_nav-list--green {
+    &::after {
+      background: $logo-color-gre;
+    }
+    &:hover {
+      color: $logo-color-gre;
+      &::after {
+        transform: scale(1, 1);
+      }
+    }
+  }
+  .header_nav-list--orange {
+    &::after {
+      background: $logo-color-ore;
+    }
+    &:hover {
+      color: $logo-color-ore;
+      &::after {
+        transform: scale(1, 1);
+      }
+    }
+  }
+  .header_nav-list--purple {
+    &::after {
+      background: $logo-color-pur;
+    }
+    &:hover {
+      color: $logo-color-pur;
+      &::after {
+        transform: scale(1, 1);
+      }
     }
   }
   .header_nav-list--link {
@@ -42,4 +102,8 @@
     line-height: 0;
   }
 
+}
+
+.header.change-color {
+  background: rgba(255, 255, 255, 0.8);
 }
