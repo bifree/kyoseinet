@@ -103,20 +103,24 @@
                   市民講座「国に意見する方法」の参加メンバーが中心となって設立
                 </li>
                 <li class="chronology__list">
+                  <span class="chronology__date">2012年3月〜</span>
+                  よりそいホットラインセクシュアルマイノリティ回線を受託運営 （2016年3月まで）
+                </li>
+                <li class="chronology__list">
                   <span class="chronology__date">2012年9月</span>
                   特定非営利活動法人に認定
                 </li>
                 <li class="chronology__list">
-                  <span class="chronology__date">20??年??月</span>
-                  何かが入るかな。何かが入るかな。何かが入るかな。
+                  <span class="chronology__date">2015年〜</span>
+                  東京都内の自治体相談を受託運営
                 </li>
                 <li class="chronology__list">
-                  <span class="chronology__date">20??年??月</span>
-                  何かが入るかな。何かが入るかな。何かが入るかな。
+                  <span class="chronology__date">2015年5月〜</span>
+                  LGBT法連合会を他５団体と共同設立、共同代表団体として参加
                 </li>
                 <li class="chronology__list">
-                  <span class="chronology__date">20??年??月</span>
-                  何かが入るかな。何かが入るかな。何かが入るかな。
+                  <span class="chronology__date">2018年</span>
+                  世田谷区男女共同参画センターとの協力でセクシュアルマイノリティ支援者養成研修を実施
                 </li>
               </ul>
             </div>
@@ -148,13 +152,12 @@
                   </div>
                   <div class="item__list">
                     <dt class="item__list-title">役員</dt>
-                    <dd>
+                    <dd  class="item__list-block">
                       <ul class="item__list__member">
-                        <li class="item__list__member-name">原 ミナ汰1号</li>
-                        <li class="item__list__member-name">原 ミナ汰2号</li>
-                        <li class="item__list__member-name">原 ミナ汰3号</li>
-                        <li class="item__list__member-name">原 ミナ汰4号</li>
-                        <li class="item__list__member-name">原 ミナ汰5号</li>
+                        <li class="item__list__member-name">副代表理事：宇佐美 翔子</li>
+                        <li class="item__list__member-name">理事：大賀 一樹（他4名）</li>
+                        <li class="item__list__member-name">監事：神谷 悠一</li>
+                        <li class="item__list__member-name">※2020年現在</li>
                       </ul>
                     </dd>
                   </div>

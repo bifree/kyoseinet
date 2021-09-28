@@ -26,13 +26,16 @@
       text-decoration: underline;
     }
   }
+  .item__list-block {
+    flex: 1;
+  }
   .item__list__member {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
   .item__list__member-name {
-    margin-top: rem(15);
-    &:first-child {
-      margin-top: 0;
-    }
+    width: 45%;
+    line-height: 2;
   }
 }

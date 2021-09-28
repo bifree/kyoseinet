@@ -42,9 +42,7 @@
       <section id="policy" class="act-contents__block act-contents__block--red act-item">
         <div class="act-item__inner">
           <h3 class="act-item__title act-item__title--red">政策提言</h3>
-          <p class="act-item__text">
-            省庁、政党会派、連合会、審議会に対しヒアリングや参加を行っています。
-          </p>
+          <p class="act-item__text">省庁、政党会派、連合会、審議会に対しヒアリングや参加を行っています。</p>
           <dl class="act-item__relation">
             <dt class="act-item__relation-title">
               関連団体：
@@ -72,7 +70,9 @@
             </dt>
             <dd class="act-item__relation-detail">
               <ul class="">
-                <li class="">世田谷区</li>
+                <li class="">
+                  世田谷区(<a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00120137.html" target="_blank" rel="noopener noreferrer" class="link-action">電話相談</a>、<a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00152860.html" target="_blank" rel="noopener noreferrer" class="link-action">居場所</a>)
+                </li>
                 <li class="">足立区</li>
                 <li class="">国立市</li>
                 <li class="">葛飾区 など</li>
