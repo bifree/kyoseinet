@@ -11,25 +11,25 @@
       <div class="cosu-block__inner support__inner">
         <h3 class="cosu-block__title support__title">寄付によるご支援について</h3>
         <p class="cosu-block__text support__text">
-          （寄付のお願い）テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。
+          団体の継続活動のために寄付をお願いします。
         </p>
         <div class="support__info info">
           <dl class="info__inner">
             <div class="info__items">
               <dt class="info__item">銀行名：</dt>
-              <dd>ほにゃほにゃ銀行</dd>
+              <dd>ゆうちょ銀行</dd>
             </div>
             <div class="info__items">
               <dt class="info__item">支店名：</dt>
-              <dd>ほにゃほにゃ支店</dd>
+              <dd>008支店</dd>
             </div>
             <div class="info__items">
               <dt class="info__item">口座番号：</dt>
-              <dd>普通 0123456</dd>
+              <dd>普通 4688846</dd>
             </div>
             <div class="info__items">
               <dt class="info__item">口座名義：</dt>
-              <dd>NPO法人 共生社会をつくる性的マイノリティ支援全国ネットワーク</dd>
+              <dd>トクヒ）キョウセイシャカイヲツクルセクシュアル マイノリティ</dd>
             </div>
           </dl>
         </div>

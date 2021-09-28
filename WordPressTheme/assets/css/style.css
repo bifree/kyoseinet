@@ -642,6 +642,37 @@ summary {
 	position: absolute;
 }
 
+.page-top .page-top__btn {
+	background: #fff;
+	border-radius: 3.125rem;
+	bottom: 5.625rem;
+	box-shadow: 5px 5px 10px -8px #777;
+	color: #498ee0;
+	cursor: pointer;
+	padding: 0.9375rem;
+	position: fixed;
+	right: 1.5625rem;
+	text-align: center;
+}
+
+.page-top .page-top__arrow {
+	font-size: 2.8125rem;
+}
+
+.privacy-link {
+	font-size: 0.875rem;
+	margin-top: -1.25rem;
+	text-align: end;
+}
+
+.privacy-link a {
+	color: #498ee0;
+}
+
+.privacy-link a:hover {
+	opacity: 0.7;
+}
+
 .sns_box {
 	background: #fff;
 	border-bottom: 2px solid #999;
@@ -704,7 +735,7 @@ summary {
 	transition: all 0.3s ease;
 }
 
-.footer {
+.footer .l-footer {
 	background: #555;
 }
 
@@ -965,13 +996,13 @@ summary {
 }
 
 .greet .greet__boss {
-	background: lightgrey;
 	border-radius: 0.5rem;
 	height: 0;
-	margin-top: 1.875rem;
-	padding-bottom: 30%;
+	margin-top: 2.5rem;
+	overflow: hidden;
+	padding-bottom: 50%;
 	position: relative;
-	width: 40%;
+	width: 42%;
 }
 
 .greet .greet__boss-img {
@@ -1213,6 +1244,7 @@ summary {
 .act-item .act-item__relation {
 	display: flex;
 	letter-spacing: 0.125rem;
+	text-align: initial;
 }
 
 .anchor .anchor__inner {
@@ -1276,6 +1308,7 @@ summary {
 	text-transform: capitalize;
 }
 
+#page .page__title-en,
 #page .page__title-en--gre,
 #page .page__title-en--ore,
 #page .page__title-en--pur {
@@ -1284,6 +1317,8 @@ summary {
 	justify-content: center;
 }
 
+#page .page__title-en::before,
+#page .page__title-en::after,
 #page .page__title-en--gre::before,
 #page .page__title-en--gre::after,
 #page .page__title-en--ore::before,
@@ -1295,16 +1330,23 @@ summary {
 	width: 3.125rem;
 }
 
+#page .page__title-en::before,
 #page .page__title-en--gre::before,
 #page .page__title-en--ore::before,
 #page .page__title-en--pur::before {
 	margin-right: 1.25rem;
 }
 
+#page .page__title-en::after,
 #page .page__title-en--gre::after,
 #page .page__title-en--ore::after,
 #page .page__title-en--pur::after {
 	margin-left: 1.25rem;
+}
+
+#page .page__title-en::before,
+#page .page__title-en::after {
+	background: #333;
 }
 
 #page .page__title-en--gre {
@@ -1512,6 +1554,36 @@ summary {
 	width: 10%;
 }
 
+.privacy .privacy__content {
+	margin: 0 auto;
+	padding: 0 1.5625rem;
+	width: 85%;
+}
+
+.privacy .privacy__declaration {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.privacy .privacy__title {
+	font-size: 1.5rem;
+	margin-top: 5rem;
+}
+
+.privacy .privacy__text {
+	font-size: 1.125rem;
+	margin-top: 0.625rem;
+}
+
+.privacy .privacy__lists {
+	list-style: disc;
+	padding-left: 1.875rem;
+}
+
+.privacy .privacy__list {
+	margin-top: 0.625rem;
+}
+
 .news-sns .ns_flex {
 	align-items: flex-end;
 	display: flex;
@@ -1534,7 +1606,9 @@ summary {
 }
 
 .news-sns .news_list {
-	font-size: 1.125rem;
+	align-items: center;
+	display: flex;
+	font-size: 1.25rem;
 	margin-top: 0.625rem;
 }
 
@@ -1543,6 +1617,7 @@ summary {
 }
 
 .news-sns .news_list__date {
+	font-size: 1.125rem;
 	margin-right: 3.125rem;
 }
 
@@ -1565,7 +1640,7 @@ summary {
 }
 
 .schedule .schedule_discription {
-	font-size: 1.125rem;
+	font-size: 1.25rem;
 }
 
 .schedule .goo-cal {
@@ -1601,7 +1676,7 @@ summary {
 	position: absolute;
 	text-align: center;
 	top: 50%;
-	transform: translateY(-50%) translateX(-50%);
+	transform: translateY(-45%) translateX(-50%);
 	width: 100%;
 }
 

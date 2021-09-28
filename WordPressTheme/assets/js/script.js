@@ -66,3 +66,22 @@ jQuery(window).on('scroll', function () {
   jQuery('.header').removeClass('change-color');
   }
 });
+
+//画面トップに戻る
+jQuery(function () {
+  var pagetop = jQuery('#js-pageTop');
+  pagetop.hide();
+  jQuery(window).scroll(function () {
+    if (jQuery(this).scrollTop() > 300) {
+      pagetop.fadeIn();
+    } else {
+      pagetop.fadeOut();
+    }
+  });
+  pagetop.click(function () {
+    jQuery('body, html').animate({
+        scrollTop: 0
+    }, 300);
+    return false;
+  });
+});

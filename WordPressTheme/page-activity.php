@@ -51,9 +51,9 @@
             </dt>
             <dd class="act-item__relation-detail">
               <ul class="">
-                <li class="">テキストテキスト</li>
-                <li class="">テキストテキスト</li>
-                <li class="">テキストテキスト</li>
+                <li class="">LGBT法連合 など</li>
+                <!-- <li class="">テキストテキスト</li>
+                <li class="">テキストテキスト</li> -->
               </ul>
             </dd>
           </dl>
@@ -72,9 +72,10 @@
             </dt>
             <dd class="act-item__relation-detail">
               <ul class="">
-                <li class="">テキストテキスト</li>
-                <li class="">テキストテキスト</li>
-                <li class="">テキストテキスト</li>
+                <li class="">世田谷区</li>
+                <li class="">足立区</li>
+                <li class="">国立市</li>
+                <li class="">葛飾区 など</li>
               </ul>
             </dd>
           </dl>

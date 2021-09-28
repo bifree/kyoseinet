@@ -1,0 +1,26 @@
+.privacy {
+  .privacy__content {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 rem(25);
+  }
+  .privacy__declaration {
+    font-size: rem(20);
+    margin-top: rem(20);
+  }
+  .privacy__title {
+    font-size: rem(24);
+    margin-top: rem(80);
+  }
+  .privacy__text {
+    font-size: rem(18);
+    margin-top: rem(10);
+  }
+  .privacy__lists {
+    list-style: disc;
+    padding-left: rem(30);
+  }
+  .privacy__list {
+    margin-top: rem(10);
+  }
+}

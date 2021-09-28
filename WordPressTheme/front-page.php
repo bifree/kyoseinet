@@ -62,8 +62,8 @@
     </div>
     <div class="sns_block">
       <ul class="sns_inner">
-        <li class="sns_box sns_twitter"><a href="https://twitter.com/kyouseinet2012" class="faa-parent animated-hover"><i class="fab fa-twitter faa-pulse"></i></a></li>
-        <li class="sns_box sns_facebook"><a href="https://www.facebook.com/kyouseinet/" class="faa-parent animated-hover"><i class="fab fa-facebook faa-pulse"></i></a></li>
+        <li class="sns_box sns_twitter"><a href="https://twitter.com/kyouseinet2012" target="_blank" rel="noopener noreferrer" class="faa-parent animated-hover"><i class="fab fa-twitter faa-pulse"></i></a></li>
+        <li class="sns_box sns_facebook"><a href="https://www.facebook.com/kyouseinet/" target="_blank" rel="noopener noreferrer" class="faa-parent animated-hover"><i class="fab fa-facebook faa-pulse"></i></a></li>
       </ul>
     </div>
   </div>

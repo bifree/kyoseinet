@@ -1,0 +1,17 @@
+.page-top {
+  .page-top__btn {
+    position: fixed;
+    bottom: rem(90);
+    right: rem(25);
+    background: $sub-background;
+    border-radius: rem(50);
+    box-shadow: 5px 5px 10px -8px #777;
+    cursor: pointer;
+    text-align: center;
+    padding: rem(15);
+    color: $sub-color;
+  }
+  .page-top__arrow {
+    font-size: rem(45);
+  }
+}

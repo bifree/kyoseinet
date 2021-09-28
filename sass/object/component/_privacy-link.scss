@@ -1,0 +1,12 @@
+.privacy-link {
+  font-size: rem(14);
+  text-align: end;
+  margin-top: rem(-20);
+}
+
+.privacy-link a {
+  color: $sub-color;
+  &:hover {
+    opacity: $opacity;
+  }
+}

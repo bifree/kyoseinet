@@ -70,7 +70,7 @@
         <div id="greet" class="content__block greet">
           <div class="l-inner greet__inner">
             <div class="greet__boss">
-              <img src="" alt="代表理事 原ミナ汰" class="greet__boss-img">
+              <img src="<?php echo get_template_directory_uri() ?>/assets/img/minatahara.jpeg" alt="代表理事 原ミナ汰" class="greet__boss-img">
             </div>
             <div class="content__flex">
               <div class="content__block-title greet__block">
@@ -80,7 +80,9 @@
               </div>
               <div class="greet__discription">
                 <p class="greet__discription-text">
-                  ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。
+                  共生ネットが発足した２００８年には、まだ性的マイノリティへの公的支援や、性的マイノリティへの差別をなくすための法律や条例はほとんど導入されておらず、「身近にはいない」「何に困っているのかわからない」などの意見が主流でしたが、それから１０年以上経過したいま、世の中は大きく変わりつつあります。<br>
+                  <br>
+                  わたしどもは、日々の活動のなかで、たくさんの性的マイノリティの人々、かれらを応援する身近な仲間、心ある援助職者や行政職員などに出会ってきました。これからも、それぞれの立場で力を合わせて、未着手の課題の解決に取り組んでいく所存です。応援どうぞよろしくお願い申し上げます。
                 </p>
               </div>
             </div>
@@ -101,7 +103,7 @@
                   市民講座「国に意見する方法」の参加メンバーが中心となって設立
                 </li>
                 <li class="chronology__list">
-                  <span class="chronology__date">2012年10月</span>
+                  <span class="chronology__date">2012年9月</span>
                   特定非営利活動法人に認定
                 </li>
                 <li class="chronology__list">
@@ -138,7 +140,7 @@
                   </div>
                   <div class="item__list">
                     <dt class="item__list-title">設立</dt>
-                    <dd></dd>
+                    <dd>2008年1月</dd>
                   </div>
                   <div class="item__list">
                     <dt class="item__list-title">代表理事</dt>
@@ -164,7 +166,7 @@
                   </div>
                   <div class="item__list">
                     <dt class="item__list-title">住所</dt>
-                    <dd>〒113-0033 東京都文京区本郷1-35-28メゾンドール本郷302</dd>
+                    <dd>〒040-0044 函館市青柳町10-3-406 NPO法人共生ネット函館事務所</dd>
                   </div>
                   <div class="item__list">
                     <dt class="item__list-title">電話/FAX</dt>
@@ -172,7 +174,7 @@
                   </div>
                   <div class="item__list">
                     <dt class="item__list-title">メール</dt>
-                    <dd>office@kyouseinet.org</dd>
+                    <dd>kyouseinet2020@gmail.com</dd>
                   </div>
                 </dl>
               </div>

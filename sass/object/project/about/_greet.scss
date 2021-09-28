@@ -3,13 +3,13 @@
     display: flex;
   }
   .greet__boss {
-    width: 40%;
+    width: 42%;
     height: 0;
-    padding-bottom: 30%;
-    margin-top: rem(30);
+    padding-bottom: 50%;
+    margin-top: rem(40);
     border-radius: rem(8);
+    overflow: hidden;
     position: relative;
-    background: lightgrey;
   }
   .greet__boss-img {
     position: absolute;
