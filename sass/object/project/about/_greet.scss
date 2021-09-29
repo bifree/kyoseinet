@@ -1,6 +1,10 @@
 .greet {
   .greet__inner {
     display: flex;
+    @include mq(sp) {
+      margin-top: rem(10);
+      flex-direction: column;
+    }
   }
   .greet__boss {
     width: 42%;
@@ -10,6 +14,11 @@
     border-radius: rem(8);
     overflow: hidden;
     position: relative;
+    @include mq(sp) {
+      margin-top: rem(110);
+      width: 100%;
+      padding-bottom: 80%;
+    }
   }
   .greet__boss-img {
     position: absolute;
@@ -22,12 +31,23 @@
   .content__flex {
     width: calc(100% - 40%);
     margin: 0 rem(50);
+    @include mq(sp) {
+      width: 100%;
+      margin: rem(-360) 0 0;
+    }
   }
   .greet__discription {
     margin-top: rem(30);
     padding: 0 rem(30);
+    @include mq(sp) {
+      margin-top: rem(320);
+      padding: 0;
+    }
   }
   .greet__discription-text {
     font-size: rem(22);
+    @include mq(sp) {
+      font-size: rem(18);
+    }
   }
 }

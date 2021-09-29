@@ -2,6 +2,9 @@
   .about-top__inner {
     margin-top: rem(50);
     padding-bottom: rem(50);
+    @include mq(sp) {
+      margin-top: rem(-20);
+    }
   }
   .about-top__outline {
     font-size: rem(26);
@@ -14,6 +17,10 @@
     background-blend-mode:lighten;
     border-radius: rem(8);
     line-height: 2;
+    @include mq(sp) {
+      width: 100%;
+      font-size: rem(20);
+    }
   }
   .about-top__sexual {
     position: absolute;
@@ -25,6 +32,12 @@
     background: $sub-background;
     border: 2px solid $sub-color;
     border-radius: 50px;
+    @include mq(sp) {
+      font-size: rem(16);
+      right: 0;
+      bottom: rem(-120);
+      width: 100%;
+    }
     &::before {
       content: '';
       position: absolute;
@@ -39,6 +52,15 @@
       border-right: 2px;
       transform: rotate(-38deg);
       -webkit-transform: rotate(-38deg);
+      @include mq(sp) {
+        top: -7%;
+        left: auto;
+        right: rem(40);
+        width: rem(25);
+        height: rem(25);
+        transform: rotate(48deg);
+        -webkit-transform: rotate(48deg);
+      }
     }
   }
 }

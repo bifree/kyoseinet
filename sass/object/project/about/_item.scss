@@ -2,6 +2,10 @@
   .item__inner {
     margin-left: rem(80);
     padding: rem(40) 0 rem(80);
+    @include mq(sp) {
+      margin: 0;
+      padding: rem(20) 0 rem(50);
+    }
   }
   .item__list {
     display: flex;
@@ -12,10 +16,22 @@
     background: rgba(255,255,255,0.7);
     backdrop-filter: blur(1rem);
     border-radius: rem(8);
+    @include mq(sp) {
+      flex-direction: column;
+      font-size: rem(18);
+    }
   }
   .item__list-title {
     width: 15%;
     font-weight: 700;
+    @include mq(sp) {
+      width: fit-content;
+      font-size: rem(16);
+      margin-bottom: rem(15);
+      padding: rem(2) rem(8);
+      border: 1px double;
+      border-radius: rem(4);
+    }
   }
   .item__list-title--link {
     color: $sub-color;
@@ -37,5 +53,8 @@
   .item__list__member-name {
     width: 45%;
     line-height: 2;
+    @include mq(sp) {
+      width: 100%;
+    }
   }
 }

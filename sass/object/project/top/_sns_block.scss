@@ -1,0 +1,15 @@
+.sns_block {
+  flex: 1;
+  margin: inherit;
+}
+.sns_inner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sns_box i.fa-twitter {
+  color: #1DA1F2;
+}
+.sns_box i.fa-facebook {
+  color: #1877f2;
+}

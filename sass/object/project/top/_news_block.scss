@@ -1,0 +1,35 @@
+.news_block {
+  max-width: 800px;
+  width: 100%;
+}
+.news_archive {
+  margin-top: rem(10);
+}
+.news_lists {
+  padding: rem(20) rem(15);
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: rem(8);
+}
+.news_list {
+  display: flex;
+  align-items: center;
+  font-size: rem(20);
+  margin-top: rem(10);
+  &:first-child {
+    margin-top: 0;
+  }
+  @include mq(sp) {
+    font-size: rem(18);
+    align-items: flex-start;
+  }
+}
+.news_list__date {
+  font-size: rem(18);
+  margin-right: rem(50);
+  @include mq(sp) {
+    font-size: rem(16);
+    margin-right: rem(30);
+    padding-top: rem(5);
+  }
+}

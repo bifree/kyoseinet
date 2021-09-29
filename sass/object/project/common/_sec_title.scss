@@ -1,11 +1,17 @@
 .sec_title {
   font-size: rem(32);
+  @include mq(sp) {
+    font-size: rem(26);
+  }
   span {
     display: flex;
     align-items: center;
     color: $sub-color;
     font-size: rem(18);
     text-transform: uppercase;
+    @include mq(sp) {
+      font-size: rem(16);
+    }
     &::before {
       content: '';
       display: inline-block;
@@ -13,6 +19,10 @@
       width: rem(40);
       height: rem(1);
       background-color: $sub-color;
+      @include mq(sp) {
+        width: rem(30);
+        margin-right: rem(10);
+      }
     }
   }
 }

@@ -16,11 +16,20 @@
     border-top: 2px solid #999;
     border-left: 3px solid #999;
   }
+  @include mq(sp) {
+    margin-right: rem(35);
+  }
 }
 .sns_box a {
   display: inline-block;
   padding: rem(15);
+  @include mq(sp) {
+    padding: rem(10);
+  }
 }
 .sns_box a i {
   font-size: rem(50);
+  @include mq(sp) {
+    font-size: rem(45);
+  }
 }

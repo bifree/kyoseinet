@@ -1,8 +1,10 @@
 .to_contact {
   text-align: center;
   margin-top: rem(35);
+  @include mq(sp) {
+    margin-top: rem(25);
+  }
 }
-
 .contact_btn {
   display: inline-block;
   padding: rem(14) rem(40);
@@ -18,10 +20,14 @@
       left: -8%;
     }
   }
+  @include mq(sp) {
+    font-size: rem(18);
+  }
   .border_arrow {
     position: absolute;
     top: 40%;
     left: -12%;
     transition: all 0.3s ease;
+    @include mq(sp) {}
   }
 }

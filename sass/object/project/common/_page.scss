@@ -1,6 +1,9 @@
 #page {
   .page__inner {
     margin-top: rem(100);
+    @include mq(sp) {
+      margin-top: rem(70);
+    }
   }
   .page__title {
     text-align: center;
@@ -9,6 +12,9 @@
   .page__title-en {
     font-size: rem(20);
     text-transform: capitalize;
+    @include mq(sp) {
+      font-size: rem(16);
+    }
   }
   .page__title-en,.page__title-en--gre,.page__title-en--ore,.page__title-en--pur {
     display: flex;
@@ -18,12 +24,21 @@
       content: "";
       width: rem(50);
       height: rem(1);
+      @include mq(sp) {
+        width: rem(35);
+      }
     }
     &::before {
       margin-right: rem(20);
+      @include mq(sp) {
+        margin-right: rem(12);
+      }
     }
     &::after {
       margin-left: rem(20);
+      @include mq(sp) {
+        margin-left: rem(12);
+      }
     }
   }
   .page__title-en {
@@ -52,5 +67,8 @@
   .page__title-jp {
     font-size: rem(40);
     letter-spacing: rem(4);
+    @include mq(sp) {
+      font-size: rem(32);
+    }
   }
 }

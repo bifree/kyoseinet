@@ -7,6 +7,9 @@
     width: fit-content;
     border-radius: rem(8);
     box-shadow: 5px 5px 10px -8px #777;
+    @include mq(sp) {
+      flex-direction: column;
+    }
   }
   .card__lists {
     display: flex;
@@ -24,6 +27,9 @@
     }
     i {
       font-size: rem(25);
+      @include mq(sp) {
+        font-size: rem(22);
+      }
     }
   }
   .card__list {
@@ -32,5 +38,8 @@
     font-weight: 700;
     letter-spacing: rem(2);
     padding: rem(10) 0 rem(10) rem(10);
+    @include mq(sp) {
+      font-size: rem(16);
+    }
   }
 }

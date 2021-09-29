@@ -1,12 +1,15 @@
 .schedule {
-  .schedule_title {
-
-  }
   .schedule_discription {
     font-size: rem(20);
+    @include mq(sp) {
+      font-size: rem(16);
+    }
   }
   .goo-cal {
     padding: rem(30) 0;
+    @include mq(sp) {
+      padding: rem(20) 0;
+    }
   }
   .goo-cal iframe {
     width: 100%;
@@ -15,9 +18,9 @@
     padding-left: $padding-pc;
     padding-right: $padding-pc;
     @include mq(sp) {
-      height: rem(400);
-      padding-left: $padding-sp;
-      padding-right: $padding-sp;
+      height: rem(450);
+      padding-left: 0;
+      padding-right: 0;
     }
   }
 }

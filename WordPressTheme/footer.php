@@ -1,6 +1,6 @@
     <footer class="footer">
-      <div id="js-pageTop" class="page-top u-hidden-sp">
-        <div class="page-top__btn">
+      <div id="js-pageTop" class="page-top">
+        <div class="page-top__btn u-hidden-sp">
           <i class="far fa-arrow-alt-circle-up page-top__arrow"></i>
         </div>
       </div>
