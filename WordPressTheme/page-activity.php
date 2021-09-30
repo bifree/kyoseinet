@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <div class="activity" id="page">
   <div class="l-inner page__inner">
     <div class="page__title">
@@ -11,7 +10,7 @@
   <div class="anchor">
     <div class="l-inner anchor__inner card">
       <ul class="card__inner">
-        <li class="card__lists">
+        <li class="card__lists card__lists--column">
           <div class="card__lists-item">
             <i class="fas fa-caret-down"></i><a href="#policy" class="card__list">政策提言</a>
           </div>
@@ -22,7 +21,7 @@
             <i class="fas fa-caret-down"></i><a href="#education" class="card__list">教育・啓発</a>
           </div>
         </li>
-        <li class="card__lists">
+        <li class="card__lists card__lists--column">
           <div class="card__lists-item">
             <i class="fas fa-caret-down"></i><a href="#publication" class="card__list">教材作成・出版</a>
           </div>
@@ -44,14 +43,12 @@
           <h3 class="act-item__title act-item__title--red">政策提言</h3>
           <p class="act-item__text">省庁、政党会派、連合会、審議会に対しヒアリングや参加を行っています。</p>
           <dl class="act-item__relation">
-            <dt class="act-item__relation-title">
-              関連団体：
-            </dt>
+            <dt class="act-item__relation-title">関連団体：</dt>
             <dd class="act-item__relation-detail">
               <ul class="">
                 <li class="">LGBT法連合 など</li>
-                <!-- <li class="">テキストテキスト</li>
-                <li class="">テキストテキスト</li> -->
+                <li class="">テキストテキスト</li>
+                <li class="">テキストテキスト</li>
               </ul>
             </dd>
           </dl>
@@ -65,13 +62,11 @@
             LGBTQ本人やその家族への相談、交流、居場所事業を行っています。
           </p>
           <dl class="act-item__relation">
-            <dt class="act-item__relation-title">
-              関連団体：
-            </dt>
+            <dt class="act-item__relation-title">関連団体：</dt>
             <dd class="act-item__relation-detail">
               <ul class="">
                 <li class="">
-                  世田谷区(<a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00120137.html" target="_blank" rel="noopener noreferrer" class="link-action">電話相談</a>、<a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00152860.html" target="_blank" rel="noopener noreferrer" class="link-action">居場所</a>)
+                  世田谷区<br class="sp_display">(<a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00120137.html" target="_blank" rel="noopener noreferrer" class="link-action">電話相談</a>、<a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00152860.html" target="_blank" rel="noopener noreferrer" class="link-action">居場所</a>)
                 </li>
                 <li class="">足立区</li>
                 <li class="">国立市</li>

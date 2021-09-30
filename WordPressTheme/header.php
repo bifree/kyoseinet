@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&display=swap" rel="stylesheet">
   <?php wp_head(); ?>
 </head>
+
 <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
   <div class="body__container">
@@ -32,7 +33,7 @@
           </ul>
         </div>
         <div class="header_nav-sp sp-tab_display">
-          <button class="nav-btn" type="button" aria-label="メニュー">
+          <button id="js-dorower" class="nav-btn" type="button" aria-label="メニュー">
             <span></span>
             <span></span>
             <span></span>

@@ -3,14 +3,40 @@
     width: 85%;
     margin: 0 auto;
     padding: 0 rem(25);
+    @include mq(sp) {
+      width: 100%;
+      padding: 0 rem(15);
+    }
   }
   .privacy__declaration {
     font-size: rem(20);
     margin-top: rem(20);
+    @include mq(sp) {
+      margin-top: 0;
+    }
   }
   .privacy__title {
     font-size: rem(24);
     margin-top: rem(80);
+    @include mq(sp) {
+      font-size: rem(22);
+      margin-top: rem(50);
+    }
+    &::before {
+      content: "";
+      display: inline-block;
+      width: rem(15);
+      height: rem(15);
+      background: $sub-color;
+      border-radius: rem(4);
+      margin-right: rem(15);
+      margin-bottom: rem(2);
+      transform: rotate(-45deg);
+      @include mq(sp) {
+        margin-bottom: rem(1);
+        border-radius: rem(50);
+      }
+    }
   }
   .privacy__text {
     font-size: rem(18);

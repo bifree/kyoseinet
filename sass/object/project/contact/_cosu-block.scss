@@ -1,15 +1,24 @@
 .cosu-block {
   .cosu-block__inner {
     margin-top: rem(50);
+    @include mq(sp) {
+      margin-top: rem(20);
+    }
   }
   .cosu-block__title {
     font-size: rem(28);
     letter-spacing: rem(2);
+    @include mq(sp) {
+      font-size: rem(22);
+    }
   }
   .cosu-block__text {
     font-size: rem(22);
     letter-spacing: rem(2);
     margin-top: rem(15);
+    @include mq(sp) {
+      font-size: rem(18);
+    }
   }
 }
 
@@ -23,8 +32,11 @@
   border-radius: 0 rem(8) rem(8) rem(8);
   padding: rem(5) rem(60);
   position: relative;
+  @include mq(sp) {
+    padding: rem(5) rem(20);
+  }
   &::before {
-    font-size: 14px;
+    font-size: rem(14);
     position: absolute;
     top: rem(-24);
     left: rem(-3);
@@ -33,6 +45,10 @@
     color: #fff;
     border-radius: rem(8) rem(8) 0 0;
     background: #000;
+    @include mq(sp) {
+      font-size: rem(12);
+      padding: rem(2) rem(15);
+    }
   }
 }
 .support__title::before {
