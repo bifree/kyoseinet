@@ -56,7 +56,8 @@ jQuery(function() {
 });
 });
 
-	/* ヘッダーカラー */
+
+// ヘッダーカラー *********//
 jQuery(window).on('scroll', function () {
  
   if (jQuery('.header').height() < jQuery(this).scrollTop()) { 
@@ -67,7 +68,7 @@ jQuery(window).on('scroll', function () {
   }
 });
 
-//画面トップに戻る
+//画面トップに戻る *********//
 jQuery(function () {
   var pagetop = jQuery('#js-pageTop');
   pagetop.hide();
@@ -84,4 +85,16 @@ jQuery(function () {
     }, 300);
     return false;
   });
+});
+
+//ドロワー *********//
+jQuery("#js_drawer").on("click", function() {
+	jQuery(".header_nav").toggleClass("is__open");
+	jQuery(".nav-btn").toggleClass("is__open");
+	
+	if (jQuery(".header_nav").hasClass("is__open")) {
+		jQuery('body').css('overflow-y', 'hidden');
+	} else {
+		jQuery('body').css('overflow-y', 'auto');
+	}
 });

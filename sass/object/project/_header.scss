@@ -15,11 +15,11 @@
     }
   }
   .header_logo {
-    width: rem(300);
+    width: rem(200);
     height: inherit;
     padding: rem(10) 0;
     @include mq(sp) {
-      width: rem(200);
+      width: rem(170);
     }
   }
   .header_logo-img {
@@ -28,8 +28,33 @@
     height: 100%;
     position: relative;
   }
+  .header_nav {
+    transition: all 0.3s ease;
+    @include mq(tab) {
+      width: 100%;
+      margin-top: rem(95);
+      transform: translateX(150%);
+    }
+    @include mq(sp) {
+      margin-top: rem(70);
+      width: 130%;
+    }
+  }
   .header_nav-inner {
     display: flex;
+    @include mq(tab) {
+      flex-direction: column;
+      align-items:inherit;
+      position: fixed;
+      width: 120%;
+      height: 100vh;
+      background: $background;
+      padding-top: rem(25);
+      margin-left: rem(-30);
+    }
+    @include mq(sp) {
+      width: 150%;
+    }
   }
   .header_nav-list {
     font-size: rem(18);
@@ -45,6 +70,12 @@
     }
     &:last-child {
       margin-right: 0;
+    }
+    @include mq(tab) {
+      height: initial;
+      margin-right: 0;
+      width: 100%;
+      text-align: center;
     }
   }
   .header_nav-list--green,.header_nav-list--orange,.header_nav-list--purple {
@@ -96,6 +127,7 @@
   .header_nav-list--link {
     display: inline-block;
     padding: rem(20) 0;
+    width: 100%;
   }
 
   .header_nav-sp {
@@ -106,4 +138,10 @@
 
 .header.change-color {
   background: rgba(255, 255, 255, 0.8);
+}
+
+.header_nav.is__open {
+  @include mq(tab) {
+    transform: translateX(10%);
+  }
 }

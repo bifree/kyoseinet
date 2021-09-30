@@ -24,7 +24,7 @@
             <img class="img__layer" src="" alt="ロゴ">
           </a>
         </h1>
-        <div class="header_nav u-hidden-tab">
+        <div class="header_nav">
           <ul class="header_nav-inner">
             <li class="header_nav-list"><a href="<?php echo home_url('/'); ?>" class="header_nav-list--link">ホーム</a></li>
             <li class="header_nav-list header_nav-list--green"><a href="<?php echo home_url('/about'); ?>" class="header_nav-list--link">団体について</a></li>
@@ -33,7 +33,7 @@
           </ul>
         </div>
         <div class="header_nav-sp sp-tab_display">
-          <button id="js-dorower" class="nav-btn" type="button" aria-label="メニュー">
+          <button id="js_drawer" class="nav-btn" type="button" aria-label="メニュー">
             <span></span>
             <span></span>
             <span></span>

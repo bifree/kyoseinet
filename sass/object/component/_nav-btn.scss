@@ -2,10 +2,11 @@
   background: none;
   border: none;
   position: relative;
-  padding: rem(10) 0;
+  padding: rem(8) 0;
+  transition: all 0.3s ease;
   span {
     display: block;
-    width: rem(40);
+    width: rem(30);
     height: rem(2);
     background: $text-color;
     &:first-child {
@@ -15,6 +16,21 @@
     &:last-child {
       position: absolute;
       bottom: 0;
+    }
+  }
+}
+.is__open {
+  span {
+    &:first-child {
+      transform: rotate(45deg);
+      top: rem(8);
+    }
+    &:nth-child(2) {
+      opacity: 0;
+    }
+    &:last-child {
+      transform: rotate(-45deg);
+      bottom: rem(8);
     }
   }
 }
