@@ -45,10 +45,11 @@
           <dl class="act-item__relation">
             <dt class="act-item__relation-title">関連団体：</dt>
             <dd class="act-item__relation-detail">
-              <ul class="">
-                <li class="">LGBT法連合 など</li>
-                <li class="">テキストテキスト</li>
-                <li class="">テキストテキスト</li>
+              <ul>
+                <li>LGBT法連合</li>
+                <li>テキストテキスト</li>
+                <li>テキストテキスト</li>
+                <li>など</li>
               </ul>
             </dd>
           </dl>
@@ -64,13 +65,28 @@
           <dl class="act-item__relation">
             <dt class="act-item__relation-title">関連団体：</dt>
             <dd class="act-item__relation-detail">
-              <ul class="">
-                <li class="">
-                  世田谷区<br class="sp_display">(<a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00120137.html" target="_blank" rel="noopener noreferrer" class="link-action">電話相談</a>、<a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00152860.html" target="_blank" rel="noopener noreferrer" class="link-action">居場所</a>)
+              <ul>
+                <li>
+                  世田谷区<br class="sp_display">
+                  (<a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00120137.html" target="_blank" rel="noopener noreferrer" class="link-action">電話相談</a>、
+                  <a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00152860.html" target="_blank" rel="noopener noreferrer" class="link-action">居場所</a>)
                 </li>
-                <li class="">足立区</li>
-                <li class="">国立市</li>
-                <li class="">葛飾区 など</li>
+                <li>
+                  足立区<br class="sp_display">
+                  (<a href="" target="_blank" rel="noopener noreferrer" class="link-action">テキスト</a>、
+                  <a href="" target="_blank" rel="noopener noreferrer" class="link-action">テキスト</a>)
+                </li>
+                <li>
+                  国立市<br class="sp_display">
+                  (<a href="" target="_blank" rel="noopener noreferrer" class="link-action">テキスト</a>、
+                  <a href="" target="_blank" rel="noopener noreferrer" class="link-action">テキスト</a>)
+                </li>
+                <li>
+                  葛飾区<br class="sp_display">
+                  (<a href="" target="_blank" rel="noopener noreferrer" class="link-action">テキスト</a>、
+                  <a href="" target="_blank" rel="noopener noreferrer" class="link-action">テキスト</a>)
+                </li>
+                <li>など</li>
               </ul>
             </dd>
           </dl>
@@ -81,7 +97,8 @@
         <div class="act-item__inner">
           <h3 class="act-item__title act-item__title--blu">教育・啓発</h3>
           <p class="act-item__text">
-            市民講座、職員・教員・相談員研修、支援者育成事業を行っています。
+            市民講座、職員・教員・相談員研修、支援者育成事業を行っています。<br>
+            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
           </p>
         </div>
       </section>
@@ -90,7 +107,8 @@
         <div class="act-item__inner">
           <h3 class="act-item__title act-item__title--gre">教材作成・出版</h3>
           <p class="act-item__text">
-            自治体や関連団体が作製している教材や書籍・雑誌への寄稿や依頼原稿の執筆などを行っています。
+            自治体や関連団体が作製している教材や書籍・雑誌への寄稿や依頼原稿の執筆などを行っています。<br>
+            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
           </p>
         </div>
       </section>
@@ -99,7 +117,8 @@
         <div class="act-item__inner">
           <h3 class="act-item__title act-item__title--yel">情報提供</h3>
           <p class="act-item__text">
-            依頼された団体やメディア等の取材に対し情報提供を行っています。
+            依頼された団体やメディア等の取材に対し情報提供を行っています。<br>
+            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
           </p>
         </div>
       </section>
@@ -108,7 +127,8 @@
         <div class="act-item__inner">
           <h3 class="act-item__title act-item__title--pur">ネットワークづくり</h3>
           <p class="act-item__text">
-            LGBTQイベントや関連団体のミーティングに参加し、ネットワーキングを行っています。
+            LGBTQイベントや関連団体のミーティングに参加し、ネットワーキングを行っています。<br>
+            ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
           </p>
         </div>
       </section>

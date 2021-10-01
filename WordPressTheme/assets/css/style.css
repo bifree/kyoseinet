@@ -1221,17 +1221,18 @@ summary {
 	z-index: 1;
 }
 
+.act-item .act-item__inner {
+	text-align: center;
+	width: 75%;
+}
+
 .act-item:nth-child(2n-1) .act-item__inner {
 	padding: 2.1875rem 0 2.1875rem 4.375rem;
-	text-align: center;
-	width: 80%;
 }
 
 .act-item:nth-child(2n) .act-item__inner {
 	margin: 0 0 0 auto;
 	padding: 2.1875rem 4.375rem 2.1875rem 0;
-	text-align: center;
-	width: 75%;
 }
 
 .act-item .act-item__title {
@@ -2029,11 +2030,7 @@ html {
 	display: none;
 }
 
-.act-item:nth-child(2n-1) .act-item__inner {
-	padding: 1.875rem 1.25rem;
-	width: 100%;
-}
-
+.act-item:nth-child(2n-1) .act-item__inner,
 .act-item:nth-child(2n) .act-item__inner {
 	padding: 1.875rem 1.25rem;
 	width: 100%;
