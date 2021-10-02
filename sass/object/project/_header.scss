@@ -74,8 +74,9 @@
     @include mq(tab) {
       height: initial;
       margin-right: 0;
-      width: 100%;
+      width: 70%;
       text-align: center;
+      margin-left: rem(25);
     }
   }
   .header_nav-list--green,.header_nav-list--orange,.header_nav-list--purple {
