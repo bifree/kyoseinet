@@ -30,7 +30,7 @@
   display: inline-block;
   border: 3px solid #000;
   border-radius: 0 rem(8) rem(8) rem(8);
-  padding: rem(5) rem(60);
+  padding: rem(5) rem(20);
   position: relative;
   @include mq(sp) {
     padding: rem(5) rem(20);

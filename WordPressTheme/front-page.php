@@ -3,7 +3,7 @@
   <div class="top_text">
     私たち<br class="sp_display">「<span class="f_bold">NPO法人 共生社会をつくる<br>
     性的マイノリティ<br class="sp_display">支援全国ネットワーク</span>」は、<br>
-    セクシュアル・マイノリティへの<br class="sp_display">根強い偏見を解消し、<br>
+    性的マイノリティへの<br class="sp_display">根強い偏見を解消し、<br>
     その視点を国や地方自治体の<br class="sp_display">政策に反映させるための、<br>
     当事者、支援者、専門家などで<br class="sp_display">構成される全国組織です。
   </div>
@@ -11,7 +11,7 @@
 
 <section class="schedule">
   <div class="l-inner">
-    <h2 class="sec_title schedule_title"><span>suchedule</span>スケジュール予定</h2>
+    <h2 class="sec_title schedule_title"><span>schedule</span>スケジュール予定</h2>
     <p class="schedule_discription">
       私たちの活動・イベント等のスケジュールについては以下をご確認の上、お問い合わせください。
     </p>

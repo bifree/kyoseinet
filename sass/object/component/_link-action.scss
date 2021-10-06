@@ -1,4 +1,8 @@
 .link-action {
   color: $sub-color;
-  text-decoration: underline;
+  transition: all 0.5s ease;
+  &:hover {
+    text-decoration: underline;
+    opacity: $opacity;
+  }
 }

@@ -24,43 +24,19 @@
   }
   .about-top__sexual {
     position: absolute;
-    right: rem(-50);
-    bottom: rem(-30);
-    width: 50%;
+    right: 0;
+    bottom: rem(-40);
+    width: 65%;
     font-size: rem(22);
-    padding: rem(20);
+    padding: rem(25) rem(40);
     background: $sub-background;
-    border: 2px solid $sub-color;
-    border-radius: 50px;
+    border-radius: rem(20);
+    box-shadow: 5px 5px 10px -8px #777;
     @include mq(sp) {
       font-size: rem(16);
-      right: 0;
       bottom: rem(-120);
       width: 100%;
-    }
-    &::before {
-      content: '';
-      position: absolute;
-      display: block;
-      top: 30%;
-      left: rem(-17);
-      width: rem(33);
-      height: rem(40);
-      background: $sub-background;
-      border: 2px solid $sub-color;
-      border-bottom: 2px;
-      border-right: 2px;
-      transform: rotate(-38deg);
-      -webkit-transform: rotate(-38deg);
-      @include mq(sp) {
-        top: -7%;
-        left: auto;
-        right: rem(40);
-        width: rem(25);
-        height: rem(25);
-        transform: rotate(48deg);
-        -webkit-transform: rotate(48deg);
-      }
+      padding: rem(20);
     }
   }
 }

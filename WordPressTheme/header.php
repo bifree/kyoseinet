@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="">
+  <meta name="description" content="私たち「NPO法人 共生社会をつくる性的マイノリティ支援全国ネットワーク」は、セクシュアル・マイノリティへの根強い偏見を解消し、その視点を国や地方自治体の政策に反映させるための、当事者、支援者、専門家などで構成される全国組織です。">
+  <link rel=”shortcut icon” href=”https://kyouseinet.com/wp/favicon.ico” />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css" type="text/css" media="all" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
