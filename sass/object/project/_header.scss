@@ -16,12 +16,9 @@
     }
   }
   .header_logo {
-    width: rem(200);
+    width: rem(300);
     height: inherit;
     padding: rem(10) 0;
-    @include mq(sp) {
-      width: rem(170);
-    }
   }
   .header_logo-img {
     display: inline-block;

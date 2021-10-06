@@ -796,7 +796,7 @@ summary {
 .header .header_logo {
 	height: inherit;
 	padding: 0.625rem 0;
-	width: 12.5rem;
+	width: 18.75rem;
 }
 
 .header .header_logo-img {
@@ -1868,10 +1868,6 @@ html {
 
 .header .header_inner {
 	height: 4.375rem;
-}
-
-.header .header_logo {
-	width: 10.625rem;
 }
 
 .header .header_nav {
