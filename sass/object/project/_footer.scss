@@ -5,5 +5,8 @@
   .copylight {
     color: white;
     text-align: center;
+    @include mq(sp) {
+      padding: 0 rem(40);
+    }
   }
 }

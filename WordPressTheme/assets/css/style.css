@@ -629,17 +629,17 @@ summary {
 }
 
 .nav-btn {
-	background: none;
+	background: none !important;
 	border: none;
 	padding: 0.5rem 0;
 	position: relative;
-	transition: all 0.3s ease;
 }
 
 .nav-btn span {
 	background: #333;
 	display: block;
 	height: 0.125rem;
+	transition: all 0.3s ease;
 	width: 1.875rem;
 }
 
@@ -1782,7 +1782,7 @@ html {
 .header .header_nav {
 	margin-top: 5.9375rem;
 	transform: translateX(150%);
-	width: 100%;
+	width: 60%;
 }
 
 .header .header_nav-inner {
@@ -1805,7 +1805,7 @@ html {
 }
 
 .header_nav.is__open {
-	transform: translateX(10%);
+	transform: translateX(40%);
 }
 
 .contact-form .form-box {
@@ -1867,17 +1867,25 @@ html {
 	font-size: 1.125rem;
 }
 
+.footer .copylight {
+	padding: 0 2.5rem;
+}
+
 .header .header_inner {
 	height: 4.375rem;
 }
 
 .header .header_nav {
 	margin-top: 4.375rem;
-	width: 130%;
+	width: 80%;
 }
 
 .header .header_nav-inner {
-	width: 150%;
+	width: 200%;
+}
+
+.header_nav.is__open {
+	transform: translateX(-20%);
 }
 
 .about-top .about-top__inner {

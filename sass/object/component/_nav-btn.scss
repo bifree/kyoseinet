@@ -1,14 +1,14 @@
 .nav-btn {
-  background: none;
+  background: none !important;
   border: none;
   position: relative;
   padding: rem(8) 0;
-  transition: all 0.3s ease;
   span {
     display: block;
     width: rem(30);
     height: rem(2);
     background: $text-color;
+    transition: all 0.3s ease;
     &:first-child {
       position: absolute;
       top: 0;

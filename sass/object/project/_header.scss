@@ -29,13 +29,13 @@
   .header_nav {
     transition: all 0.3s ease;
     @include mq(tab) {
-      width: 100%;
+      width: 60%;
       margin-top: rem(95);
       transform: translateX(150%);
     }
     @include mq(sp) {
       margin-top: rem(70);
-      width: 130%;
+      width: 80%;
     }
   }
   .header_nav-inner {
@@ -51,7 +51,7 @@
       margin-left: rem(-30);
     }
     @include mq(sp) {
-      width: 150%;
+      width: 200%;
     }
   }
   .header_nav-list {
@@ -141,7 +141,10 @@
 }
 
 .header_nav.is__open {
+  @include mq(sp) {
+    transform: translateX(-20%);
+  }
   @include mq(tab) {
-    transform: translateX(10%);
+    transform: translateX(40%);
   }
 }
