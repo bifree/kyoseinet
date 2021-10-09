@@ -70,13 +70,13 @@
                 </li>
                 <li>
                   渋谷区<br class="sp_display">
-                  (<a href="https://www.shibu-cul.jp/other#link_other01" target="_blank" rel="noopener noreferrer" class="link-action">性的少数者のためのにじいろ電話相談</a>、
-                  <a href="https://www.shibu-cul.jp/other#link_other01" target="_blank" rel="noopener noreferrer" class="link-action">性的少数者のためのにじいろパートナーシップ法律相談</a>)
+                  <a href="https://www.shibu-cul.jp/other#link_other01" target="_blank" rel="noopener noreferrer" class="link-action">性的少数者のためのにじいろ電話相談</a>、
+                  <a href="https://www.shibu-cul.jp/other#link_other01" target="_blank" rel="noopener noreferrer" class="link-action">性的少数者のためのにじいろパートナーシップ法律相談</a>
                 </li>
                 <li>
                   世田谷区<br class="sp_display">
-                  (<a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00120137.html" target="_blank" rel="noopener noreferrer" class="link-action">電話相談</a>、
-                  <a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00152860.html" target="_blank" rel="noopener noreferrer" class="link-action">セクシュアルマイノリティのための世田谷にじいろひろば交流スペース</a>)
+                  <a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00120137.html" target="_blank" rel="noopener noreferrer" class="link-action">電話相談</a>、
+                  <a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00152860.html" target="_blank" rel="noopener noreferrer" class="link-action">セクシュアルマイノリティのための世田谷にじいろひろば交流スペース</a>
                 </li>
                 <li>
                   多摩市<br class="sp_display">

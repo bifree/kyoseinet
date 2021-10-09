@@ -678,6 +678,7 @@ summary {
 	position: fixed;
 	right: 1.5625rem;
 	text-align: center;
+	z-index: 1;
 }
 
 .page-top .page-top__arrow {

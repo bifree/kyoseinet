@@ -21,7 +21,7 @@
       <div class="l-header header_inner">
         <h1 class="header_logo">
           <a href="<?php echo home_url('/'); ?>" class="header_logo-img">
-            <img class="img__layer" src="<?php echo get_template_directory_uri() ?>/assets/img/kyousei_logo.png" alt="ロゴ">
+            <img class="img__layer" src="<?php echo get_template_directory_uri() ?>/assets/img/kyousei_logo.png" alt="共生ネット">
           </a>
         </h1>
         <div class="header_nav">
