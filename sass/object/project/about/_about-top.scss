@@ -20,21 +20,23 @@
     @include mq(sp) {
       width: 100%;
       font-size: rem(20);
+      line-height: 1.7;
+      margin-bottom: rem(80);
     }
   }
   .about-top__sexual {
     position: absolute;
     right: 0;
-    bottom: rem(-40);
-    width: 65%;
-    font-size: rem(22);
+    bottom: rem(-72);
+    width: 75%;
+    font-size: rem(18);
     padding: rem(25) rem(40);
     background: $sub-background;
     border-radius: rem(20);
     box-shadow: 5px 5px 10px -8px #777;
     @include mq(sp) {
-      font-size: rem(16);
-      bottom: rem(-120);
+      font-size: rem(14);
+      bottom: rem(-110);
       width: 100%;
       padding: rem(20);
     }

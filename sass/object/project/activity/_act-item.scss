@@ -79,21 +79,14 @@
     @include mq(sp) {
       flex-direction: column;
     }
-    .act-item__relation-title {
-      width: 17%;
-      @include mq(sp) {
-        width: 32%;
-      }
-    }
   }
   .act-item__relation-title {
     @include mq(sp) {
-      width: 32%;
+      font-weight: 700;
     }
   }
   .act-item__relation-detail {
-      @include mq(sp) {
-        flex: 1;
-    }
+    flex: 1;
+    line-height: 1.8;
   }
 }

@@ -61,20 +61,15 @@
                   <a href="https://www.city.katsushika.lg.jp/kurashi/1000061/1003804/1024735.html" target="_blank" rel="noopener noreferrer" class="link-action">性自認・性的指向に関する相談（LGBTs相談）</a>
                 </li>
                 <li>
-                  国立市<br class="sp_display">
-                  <a href="http://kuni-sta.com/service/" target="_blank" rel="noopener noreferrer" class="link-action">SOGI（ソジ）相談</a>
-                </li>
-                <li>
                   江東区<br class="sp_display">
                   <a href="https://www.city.koto.lg.jp/055202/kurashi/jinken/danjo/center/lgbtsoudan.html" target="_blank" rel="noopener noreferrer" class="link-action">LGBT等電話相談</a>
                 </li>
                 <li>
                   渋谷区<br class="sp_display">
-                  <a href="https://www.shibu-cul.jp/other#link_other01" target="_blank" rel="noopener noreferrer" class="link-action">性的少数者のためのにじいろ電話相談</a>、
-                  <a href="https://www.shibu-cul.jp/other#link_other01" target="_blank" rel="noopener noreferrer" class="link-action">性的少数者のためのにじいろパートナーシップ法律相談</a>
-                </li>
+                  <a href="https://www.shibu-cul.jp/other#link_other01" target="_blank" rel="noopener noreferrer" class="link-action">性的少数者のためのにじいろ電話相談</a>
+				        </li>
                 <li>
-                  世田谷区<br class="sp_display">
+					        世田谷区（協力）<br class="sp_display">
                   <a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00120137.html" target="_blank" rel="noopener noreferrer" class="link-action">電話相談</a>、
                   <a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00152860.html" target="_blank" rel="noopener noreferrer" class="link-action">セクシュアルマイノリティのための世田谷にじいろひろば交流スペース</a>
                 </li>
@@ -111,9 +106,19 @@
           <p class="act-item__text">
             市民講座、職員・教員・相談員研修、支援者育成事業を行っています。
           </p>
-          <p class="act-item__subtext"></p>
+          <dl class="act-item__relation f__column">
+            <dt class="act-item__relation-title">お知らせ：</dt>
+            <dd class="act-item__relation-detail">
+              <ul>
+                <li>協力実施した支援者養成講座が本になります。<br>
+                  <a href="http://www.kamogawa.co.jp/kensaku/syoseki/sa/1179.html" target="_blank" rel="noopener noreferrer" class="link-action">社会福祉法人共生会SHOWA（編著）『性的マイノリティサポートブック』（かもがわ出版）</a>
+                </li>
+              </ul>
+            </dd>
+          </dl>
         </div>
       </section>
+
 
       <section id="network" class="act-contents__block act-contents__block--pur act-item">
         <div class="act-item__inner">
@@ -121,11 +126,28 @@
           <p class="act-item__text">
             LGBTQイベントや関連団体のミーティングに参加し、ネットワーキングを行っています。
           </p>
-          <dl class="act-item__relation">
-            <dt class="act-item__relation-title">関連団体：</dt>
+          <dl class="act-item__relation f__column">
+            <dt class="act-item__relation-title">連携団体：</dt>
             <dd class="act-item__relation-detail">
               <ul>
-                <li>なないろほたる</li>
+                <li>
+                  <a href="https://twitter.com/sazanka_machida/" target="_blank" rel="noopener noreferrer" class="link-action">虹色さざんか</a>（町田市）
+                </li>
+                <li>
+                  <a href="http://lgbt-family.or.jp/" target="_blank" rel="noopener noreferrer" class="link-action">LGBTの家族と友人をつなぐ会・東京</a>
+                </li>
+                <li>
+                  <a href="https://nanahota.crayonsite.net/" target="_blank" rel="noopener noreferrer" class="link-action">なないろほたる</a>（川崎市）
+                </li>
+                <li>
+                  <a href="https://rainbowhakodate.wixsite.com/rainbow" target="_blank" rel="noopener noreferrer" class="link-action">レインボーはこだてプロジェクト</a>
+                </li>
+                <li>
+                  TransVisions（埼玉）
+                </li>
+                <li>
+                  <a href="https://pridehouse.jp/" target="_blank" rel="noopener noreferrer" class="link-action">プライドハウス東京</a>
+                </li>
                 <li>など</li>
               </ul>
             </dd>
@@ -137,13 +159,18 @@
         <div class="act-item__inner">
           <h3 class="act-item__title act-item__title--red">政策提言</h3>
           <p class="act-item__text">省庁、政党会派、連合会、審議会に対しヒアリングや参加を行っています。</p>
-          <dl class="act-item__relation">
-            <dt class="act-item__relation-title">関連団体：</dt>
+          <dl class="act-item__relation f__column">
+            <dt class="act-item__relation-title">協力先：</dt>
             <dd class="act-item__relation-detail">
               <ul>
                 <li>
-                  <a href="https://lgbtetc.jp/" target="_blank" rel="noopener noreferrer" class="link-action">LGBT法連合</a>
+				          <a href="https://lgbtetc.jp/" target="_blank" rel="noopener noreferrer" class="link-action">LGBT法連合会</a>
                 </li>
+                <li>文京区男女平等推進会議</li>
+                <li>千代田区男女平等推進会議</li>
+                <li>埼玉県人権推進課県民意識調査員会</li>
+                <li>足立区男女共同参画審議会</li>
+                <li>函館市パートナーシップ検討会</li>
                 <li>など</li>
               </ul>
             </dd>
@@ -157,6 +184,9 @@
           <p class="act-item__text">
             自治体や関連団体が作製している教材や書籍・雑誌への寄稿や依頼原稿の執筆などを行っています。
           </p>
+          <p class="act-item__subtext">
+            近刊<a href="" target="_blank" rel="noopener noreferrer" class="link-action">『性的マイノリティサポートブック』</a>（かもがわ出版、2021）
+          </p>
           <p class="act-item__subtext"></p>
         </div>
       </section>
@@ -165,9 +195,9 @@
         <div class="act-item__inner">
           <h3 class="act-item__title act-item__title--yel">情報提供</h3>
           <p class="act-item__text">
-            依頼された団体やメディア等の取材に対し情報提供を行っています。
+            依頼された団体やメディア等の取材に対し情報提供を行っています。<br>
+            取材申し込みは「<a href="<?php echo home_url('/contact'); ?>" class="link-action">寄付・お問い合わせ</a>」からお願いします。
           </p>
-          <p class="act-item__subtext"></p>
         </div>
       </section>
 
