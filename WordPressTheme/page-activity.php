@@ -185,7 +185,7 @@
             自治体や関連団体が作製している教材や書籍・雑誌への寄稿や依頼原稿の執筆などを行っています。
           </p>
           <p class="act-item__subtext">
-            近刊<a href="" target="_blank" rel="noopener noreferrer" class="link-action">『性的マイノリティサポートブック』</a>（かもがわ出版、2021）
+          社会福祉法人共生会SHOWA（編著）<a href="http://www.kamogawa.co.jp/kensaku/syoseki/sa/1179.html" target="_blank" rel="noopener noreferrer" class="link-action">『性的マイノリティサポートブック』</a>（かもがわ出版、2021）
           </p>
           <p class="act-item__subtext"></p>
         </div>

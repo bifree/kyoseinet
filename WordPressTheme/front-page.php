@@ -4,9 +4,8 @@
 	  私たち<br class="sp_display">「<span class="f_bold">NPO法人 共生社会をつくる<br>
 	  性的マイノリティ<br class="sp_display">支援全国ネットワーク</span>」は、<br>
 	  性的マイノリティへの<br class="sp_display">根強い偏見を解消するべく、<br>
-	  国や様々な地方自治体と連携しながら<br class="sp_display">相談事業、講師派遣、<br>
-	  支援者養成、施策助言を行う、<br class="sp_display">当事者、支援者、<br>
-	  専門家などで構成される全国組織です。
+	  国や様々な地方自治体と<br class="sp_display">連携しながら<br>相談事業、講師派遣、<br class="sp_display">
+    支援者養成、施策助言を行う、<br>当事者、支援者、専門家などで<br class="sp_display">構成される全国組織です。
   </div>
 </div>
 
