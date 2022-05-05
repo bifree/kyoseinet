@@ -138,7 +138,10 @@
         ・LGBTQ児童・生徒の困りごとと支援 （教職員・支援職向け）<br>
         ・「多様な性」から考える過ごしやすい学校・社会 （中学・高校生向け）<br>
         ・トランスジェンダーと医療の現在と未来（医療職向け）
-    </p>
+        </p>
+        <p class="info">≪関連情報≫<br>
+            <a href="https://researchmap.jp/ayumuwatanabe">渡邉歩のresearchmap</a>
+        </p>
 </div>
 </div>
 
@@ -178,7 +181,10 @@
     ・トランスジェンダーで保護者の多様な体験（自治体主催講座など）<br>
     ・小学生、中学生向け性の多様性講座（三鷹市、武蔵野市など）<br>
     ・地域で遭遇した困りごと対応例（社会福祉士会）
-</p>
+    </p>
+    <p class="info">≪関連情報≫<br>
+        <a href="https://lag-dialog.amebaownd.com/">lagホームページ</a>
+    </p>
 </div>
 </div>
 </div>
