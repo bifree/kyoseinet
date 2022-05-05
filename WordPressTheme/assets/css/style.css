@@ -1648,13 +1648,21 @@ summary {
 }
 
 .news_list {
-	display: flex;
 	font-size: 1.25rem;
 	margin-top: 0.625rem;
 }
 
 .news_list:first-child {
 	margin-top: 0;
+}
+
+.news_list a {
+	display: block;
+	text-align: right;
+}
+
+.news_list a .blue {
+	color: #0066ff;
 }
 
 .news_list__date {
