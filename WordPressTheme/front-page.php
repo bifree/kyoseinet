@@ -48,9 +48,12 @@
               <?php $news_query->the_post(); ?>
               
               <li class="news_list">
+                <div class="inner">
                 <time datetime="<?php the_time( 'c' ); ?>" class="news_list__date">
                 <?php the_time( 'y.m.d' ); ?>
                 </time><?php the_title(); ?>
+                </div>
+                <a href="<?php echo post_custom('address'); ?>">参考URL：<span class="blue"><?php echo post_custom('address'); ?></span></a>
               </li>
 
             <?php endwhile; ?>
@@ -62,7 +65,7 @@
     </div>
     <div class="sns_block">
       <ul class="sns_inner">
-        <li class="sns_box sns_twitter"><a href="https://twitter.com/kyouseinet2012" target="_blank" rel="noopener noreferrer" class="faa-parent animated-hover"><i class="fab fa-twitter faa-pulse"></i></a></li>
+        <li class="sns_box sns_twitter"><a href="https://twitter.com/NPOkyouseinet" target="_blank" rel="noopener noreferrer" class="faa-parent animated-hover"><i class="fab fa-twitter faa-pulse"></i></a></li>
         <li class="sns_box sns_facebook"><a href="https://www.facebook.com/kyouseinet/" target="_blank" rel="noopener noreferrer" class="faa-parent animated-hover"><i class="fab fa-facebook faa-pulse"></i></a></li>
       </ul>
     </div>
