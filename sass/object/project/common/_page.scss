@@ -52,6 +52,12 @@
       background: $logo-color-gre;
     }
   }
+  .page__title-en--blu {
+    color: $logo-color-blu;
+    &::before,&::after {
+      background: $logo-color-blu;
+    }
+  }
   .page__title-en--ore {
     color: $logo-color-ore;
     &::before,&::after {

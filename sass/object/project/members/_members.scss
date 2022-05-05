@@ -1,0 +1,48 @@
+.members {
+    p {
+        font-size: 1.125rem;
+    }
+    &-top {
+        &__intro {
+            margin-bottom: 20px;
+            &-bold {
+                font-weight: bold;
+            }
+        }
+    }
+    &-middle {
+        &__title {
+            font-size: 1.75rem;
+            letter-spacing: 0.25rem;
+            padding-bottom: 0.5rem;
+        }
+        .l-inner {
+            .member-profile {
+                margin-bottom: 60px;
+                .members-middle--photo {
+                    width: 200px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .members-middle--text {
+                    &-top {
+                        margin-top: 20px;
+                    }
+                    .special {
+                        margin: 10px 0;
+                    }
+                    .info {
+                        margin-top: 10px;
+                    }
+                    a {
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+    &-name {
+        font-weight: bold;
+    }
+}
