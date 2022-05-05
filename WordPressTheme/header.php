@@ -28,6 +28,7 @@
           <ul class="header_nav-inner">
             <li class="header_nav-list"><a href="<?php echo home_url('/'); ?>" class="header_nav-list--link">ホーム</a></li>
             <li class="header_nav-list header_nav-list--green"><a href="<?php echo home_url('/about'); ?>" class="header_nav-list--link">団体について</a></li>
+            <li class="header_nav-list header_nav-list--green"><a href="<?php echo home_url('/member'); ?>" class="header_nav-list--link">講師派遣</a></li>
             <li class="header_nav-list header_nav-list--orange"><a href="<?php echo home_url('/activity'); ?>" class="header_nav-list--link">活動内容</a></li>
             <li class="header_nav-list header_nav-list--purple"><a href="<?php echo home_url('/contact'); ?>" class="header_nav-list--link">寄付・お問い合わせ</a></li>
           </ul>

@@ -175,9 +175,12 @@
                     </dd>
                   </div>
                   <div class="item__list">
-					          <dt class="item__list-title">住所</dt>
-                    <dd>〒040-0044 <br class="sp_display">函館市青柳町10-3-406 NPO法人共生ネット函館事務所</dd>
-                  </div>
+					<dt class="item__list-title">住所</dt>
+					  <div>
+						  <dd>〒113-0033 <br class="sp_display">文京区本郷1-35-28-302 NPO法人共生ネット東京事務所</dd>
+						  <dd>〒040-0044 <br class="sp_display">函館市青柳町10-3-406 NPO法人共生ネット函館事務所</dd>
+					  </div>
+				  </div>
                   <div class="item__list">
                     <dt class="item__list-title">電話/FAX</dt>
                     <dd>03-5802-6650</dd>

@@ -93,6 +93,9 @@
                   武蔵野市<br class="sp_display">
                   <a href="http://www.city.musashino.lg.jp/kurashi_guide/shiminkatsudo/danjokyodosankaku/danjocenter/1013621/1021831.html" target="_blank" rel="noopener noreferrer" class="link-action">むさしのにじいろ電話相談 (LGBT相談)</a>
                 </li>
+				  <li>
+					  <a href="https://lgbthf.tokyo/" target="_blank" rel="noopener noreferrer" class="link-action">LGBT支援ハウス</a>
+                </li>
                 <li>など</li>
               </ul>
             </dd>
