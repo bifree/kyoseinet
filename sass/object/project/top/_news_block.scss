@@ -12,7 +12,6 @@
   border-radius: rem(8);
 }
 .news_list {
-  display: flex;
   font-size: rem(20);
   margin-top: rem(10);
   &:first-child {
@@ -21,6 +20,13 @@
   @include mq(sp) {
     font-size: rem(18);
     align-items: flex-start;
+  }
+  a {
+    text-align: right;
+    display: block;
+    .blue {
+      color: rgb(0, 102, 255);
+    }
   }
 }
 .news_list__date {
