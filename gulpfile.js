@@ -1,7 +1,7 @@
 /* package */
 const { src, dest, watch, series, parallel } = require("gulp");
-// const gulp = require("gulp");
-const sass = require("gulp-sass");
+const gulp = require("gulp");
+const sass = require('gulp-sass')(require('sass'));
 const plumber = require("gulp-plumber");
 const notify = require("gulp-notify");
 const sassGlob = require("gulp-sass-glob");
@@ -10,7 +10,7 @@ const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
 const cssdeclsort = require("css-declaration-sorter");
 const cleanCSS = require("gulp-clean-css");
-const cssnext = require("postcss-cssnext")
+const cssnext = require("postcss-preset-env");
 const rename = require("gulp-rename");
 const sourcemaps = require("gulp-sourcemaps");
 

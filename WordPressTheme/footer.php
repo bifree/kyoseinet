@@ -5,7 +5,7 @@
         </div>
       </div>
       <div class="l-footer">
-        <p class="copylight"><small>&copy; <?php bloginfo( 'name' ); ?> 2021</small></p>
+        <p class="copylight"><small>&copy; <?php bloginfo( 'name' ); ?> <script type="text/javascript">myDate = new Date() ;myYear = myDate.getFullYear ();document.write(myYear);</script></small></p>
       </div>
     </footer>
   </div>

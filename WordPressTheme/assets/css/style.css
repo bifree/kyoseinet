@@ -14,21 +14,21 @@
 fieldset,
 legend,
 button {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
 	background: none;
 	border: none;
 	border-radius: 0;
 	margin: 0;
 	outline: none;
 	padding: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
-input[type="date"],
-input[type="datetime-local"],
-input[type="month"],
-input[type="time"] {
+input[type=date],
+input[type=datetime-local],
+input[type=month],
+input[type=time] {
 	border: 1px solid #ccc;
 	font-size: 16px;
 	margin: 0;
@@ -36,20 +36,17 @@ input[type="time"] {
 	padding: 4px;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="tel"],
-input[type="url"],
-input[type="search"],
-input[type="number"],
-input[type="datetime"],
-input[type="week"],
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=tel],
+input[type=url],
+input[type=search],
+input[type=number],
+input[type=datetime],
+input[type=week],
 textarea,
 select {
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance: none;
 	background: none;
 	border: 1px solid #ccc;
 	border-radius: 0;
@@ -58,6 +55,9 @@ select {
 	margin-right: 0;
 	outline: none;
 	padding: 4px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 
 textarea {
@@ -106,13 +106,13 @@ select {
 
 /* radio & checkbox */
 
-input[type="radio"],
-input[type="checkbox"] {
+input[type=radio],
+input[type=checkbox] {
 	display: none;
 }
 
-input[type="radio"] + span,
-input[type="checkbox"] + span {
+input[type=radio] + span,
+input[type=checkbox] + span {
 	color: #555;
 	cursor: pointer;
 	display: inline-block;
@@ -124,8 +124,8 @@ input[type="checkbox"] + span {
 	text-align: center;
 }
 
-input[type="radio"] + span::before,
-input[type="checkbox"] + span::before {
+input[type=radio] + span::before,
+input[type=checkbox] + span::before {
 	background: #fff;
 	border: 1px solid #ccc;
 	content: "";
@@ -150,23 +150,23 @@ legend {
 
 /* button */
 
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
+input[type=submit],
+input[type=reset],
+input[type=button],
 button {
+	border: 1px solid #999;
+	border-radius: 0;
+	display: inline-block;
+	margin: 0;
+	padding: 10px 30px;
 	-webkit-box-sizing: content-box;
 	-webkit-appearance: button;
 	-moz-appearance: button;
 	appearance: button;
 	background: #efefef;
-	border: 1px solid #999;
-	border-radius: 0;
 	color: #000;
 	cursor: pointer;
-	display: inline-block;
 	font-size: 20px;
-	margin: 0;
-	padding: 10px 30px;
 }
 
 /* ブラウザ対策
@@ -184,10 +184,10 @@ select::-ms-expand {
 
 /* iOS */
 
-input[type="submit"]::-webkit-search-decoration,
+input[type=submit]::-webkit-search-decoration,
 input[type=reset]::-webkit-search-decoration,
-input[type="button"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-decoration {
+input[type=button]::-webkit-search-decoration,
+input[type=search]::-webkit-search-decoration {
 	display: none;
 }
 
@@ -195,19 +195,19 @@ input[type="search"]::-webkit-search-decoration {
 	-webkit-appearance: none;
 }
 
-input[type="search"]::-webkit-search-decoration {
+input[type=search]::-webkit-search-decoration {
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
 	-moz-appearance: none;
 	-webkit-appearance: textfield;
 	-webkit-box-sizing: border-box;
 	-webkit-appearance: none;
 	appearance: none;
 	background: none;
-	border: 0;
-	border-radius: 0;
 	font-size: 16px;
-	margin: 0;
 	outline: none;
-	padding: 0;
 }
 
 /* 挙動
@@ -221,18 +221,18 @@ select:hover {
 	border-color: #666;
 }
 
-input[type="radio"] + span:hover,
-input[type="checkbox"] + span:hover {
+input[type=radio] + span:hover,
+input[type=checkbox] + span:hover {
 	color: #000;
 }
 
-input[type="radio"] + span:hover::before,
-input[type="checkbox"] + span:hover::before {
+input[type=radio] + span:hover::before,
+input[type=checkbox] + span:hover::before {
 	border-color: #000;
 }
 
-input[type="radio"] + span:hover::after,
-input[type="checkbox"] + span:hover::after {
+input[type=radio] + span:hover::after,
+input[type=checkbox] + span:hover::after {
 	background: #ccc;
 	content: "";
 	height: 8px;
@@ -245,18 +245,18 @@ input[type="checkbox"] + span:hover::after {
 
 /* checked */
 
-input[type="radio"]:checked + span,
-input[type="checkbox"]:checked + span {
+input[type=radio]:checked + span,
+input[type=checkbox]:checked + span {
 	color: #3498db;
 }
 
-input[type="radio"]:checked + span::before,
-input[type="checkbox"]:checked + span::before {
+input[type=radio]:checked + span::before,
+input[type=checkbox]:checked + span::before {
 	border-color: #3498db;
 }
 
-input[type="radio"]:checked + span::after,
-input[type="checkbox"]:checked + span::after {
+input[type=radio]:checked + span::after,
+input[type=checkbox]:checked + span::after {
 	background: #3498db;
 	content: "";
 	height: 8px;
@@ -269,17 +269,17 @@ input[type="checkbox"]:checked + span::after {
 
 /* radio */
 
-input[type="radio"] + span::before,
-input[type="radio"] + span:hover::after,
-input[type="radio"]:checked + span::after {
+input[type=radio] + span::before,
+input[type=radio] + span:hover::after,
+input[type=radio]:checked + span::after {
 	border-radius: 50%;
 }
 
 /* button */
 
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover,
+input[type=button]:hover,
 button:hover {
 	background: #3498db;
 	border-color: #3498db;
@@ -293,10 +293,10 @@ textarea:focus {
 	border-color: #3498db;
 }
 
-input[type="submit"]:focus,
+input[type=submit]:focus,
 input[type=reset]:focus,
-input[type="button"]:focus,
-input[type="search"]:focus {
+input[type=button]:focus,
+input[type=search]:focus {
 	outline-offset: -2px;
 }
 
@@ -311,14 +311,14 @@ textarea:disabled:hover {
 	cursor: not-allowed;
 }
 
-input[type="radio"]:disabled + span,
-input[type="checkbox"]:disabled + span {
+input[type=radio]:disabled + span,
+input[type=checkbox]:disabled + span {
 	color: #ccc;
 	cursor: not-allowed;
 }
 
-input[type="radio"]:disabled + span::before,
-input[type="checkbox"]:disabled + span::before {
+input[type=radio]:disabled + span::before,
+input[type=checkbox]:disabled + span::before {
 	border-color: #ccc;
 	cursor: not-allowed;
 }
@@ -336,7 +336,7 @@ input[type="checkbox"]:disabled + span::before {
 /* リキッドレイアウト対応 */
 
 html {
-	font-size: 4.26667vw;
+	font-size: 4.2666666667vw;
 }
 
 html,
@@ -346,14 +346,14 @@ body {
 }
 
 body {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	background: #FFFAF0;
 	color: #333;
 	font-family: "";
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #FFFAF0;
 	min-height: 100vh;
 	min-height: -webkit-fill-available;
 	overflow-wrap: break-word;
@@ -557,8 +557,8 @@ select {
 }
 
 textarea {
-	-ms-overflow-style: scrollbar;
 	overflow: auto;
+	-ms-overflow-style: scrollbar;
 	resize: vertical;
 }
 
@@ -567,7 +567,6 @@ dialog {
 	border: solid;
 	color: inherit;
 	display: block;
-	height: -webkit-fit-content;
 	height: -moz-fit-content;
 	height: fit-content;
 	left: 0;
@@ -575,7 +574,6 @@ dialog {
 	padding: 1em;
 	position: absolute;
 	right: 0;
-	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
 }
@@ -837,13 +835,13 @@ summary {
 .header .header_nav-list--orange::after,
 .header .header_nav-list--purple::after {
 	bottom: 0.625rem;
-	content: '';
+	content: "";
 	height: 0.125rem;
 	left: 0;
 	position: absolute;
 	transform: scale(0, 1);
 	transform-origin: left top;
-	transition: all .3s;
+	transition: all 0.3s;
 	width: 100%;
 }
 
@@ -1022,7 +1020,6 @@ summary {
 	text-transform: capitalize;
 	top: -0.625rem;
 	transform: rotate(-10deg);
-	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
 	z-index: -1;
@@ -1043,18 +1040,18 @@ summary {
 }
 
 .greet .greet__boss-img {
-	-o-object-fit: cover;
 	height: 100%;
 	left: 0;
-	object-fit: cover;
 	position: absolute;
 	top: 0;
 	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
 }
 
 .greet .content__flex {
 	margin: 0 3.125rem;
-	width: calc(100% - 40%);
+	width: 60%;
 }
 
 .greet .greet__discription {
@@ -1072,15 +1069,15 @@ summary {
 }
 
 .item .item__list {
-	-webkit-backdrop-filter: blur(1rem);
-	backdrop-filter: blur(1rem);
 	background: rgba(255, 255, 255, 0.7);
-	border-radius: 0.5rem;
 	display: flex;
 	font-size: 1.25rem;
 	letter-spacing: 0.0625rem;
 	margin-top: 1.5625rem;
 	padding: 1.25rem;
+	-webkit-backdrop-filter: blur(1rem);
+	backdrop-filter: blur(1rem);
+	border-radius: 0.5rem;
 }
 
 .item .item__list-title {
@@ -1306,7 +1303,6 @@ summary {
 	display: flex;
 	margin: 0 auto;
 	padding: 0 1.875rem;
-	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
 }
@@ -1452,7 +1448,7 @@ summary {
 
 .sec_title span::before {
 	background-color: #498ee0;
-	content: '';
+	content: "";
 	display: inline-block;
 	height: 0.0625rem;
 	margin-right: 1.25rem;
@@ -1587,11 +1583,11 @@ summary {
 }
 
 .support__title::before {
-	content: 'SUPPORT';
+	content: "SUPPORT";
 }
 
 .contact__title::before {
-	content: 'CONTACT';
+	content: "CONTACT";
 }
 
 .info .info__inner {
@@ -1720,26 +1716,41 @@ summary {
 }
 
 .news_list {
+	border-bottom: 1px dashed #333;
 	font-size: 1.25rem;
 	margin-top: 0.625rem;
+	padding-bottom: 0.625rem;
+}
+
+.news_list:nth-last-of-type(1) {
+	border-bottom: none;
 }
 
 .news_list:first-child {
 	margin-top: 0;
 }
 
+.news_list .inner {
+	display: flex;
+}
+
+.news_list .inner time {
+	display: block;
+}
+
 .news_list a {
 	display: block;
+	font-size: 1rem;
 	text-align: right;
 }
 
 .news_list a .blue {
-	color: #0066ff;
+	color: rgb(0, 102, 255);
 }
 
 .news_list__date {
 	font-size: 1.125rem;
-	margin-right: 3.125rem;
+	margin-right: 1.875rem;
 	padding-top: 0.1875rem;
 }
 
@@ -1828,8 +1839,6 @@ html:focus-within {
 *,
 *::before,
 *::after {
-	-webkit-animation-duration: 0.01ms !important;
-	-webkit-animation-iteration-count: 1 !important;
 	animation-duration: 0.01ms !important;
 	animation-iteration-count: 1 !important;
 	scroll-behavior: auto !important;
@@ -2001,14 +2010,13 @@ html {
 }
 
 .chronology .chronology__date {
-	background: linear-gradient(0deg, white 0%, floralwhite 100%);
+	background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255, 250, 240) 100%);
 	border-left: 3px double;
 	border-radius: 0.25rem;
 	font-size: 1rem;
 	font-weight: 700;
 	margin-bottom: 0.625rem;
 	padding: 0.1875rem 1.25rem 0.1875rem 0.625rem;
-	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
 }
@@ -2065,7 +2073,6 @@ html {
 	font-size: 1rem;
 	margin-bottom: 0.9375rem;
 	padding: 0.125rem 0.5rem;
-	width: -webkit-fit-content;
 	width: -moz-fit-content;
 	width: fit-content;
 }
