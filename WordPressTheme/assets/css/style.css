@@ -766,6 +766,45 @@ summary {
 	transition: all 0.3s ease;
 }
 
+.to_recruit {
+	margin-top: 2.1875rem;
+	text-align: center;
+}
+
+.recruit_btn {
+	background: #61c4e4;
+	border: 3px solid #777;
+	border-left: transparent;
+	border-radius: 0.5rem;
+	border-top: transparent;
+	color: white;
+	display: inline-block;
+	font-size: 1.25rem;
+	font-weight: 700;
+	opacity: 1;
+	padding: 0.875rem 2.5rem;
+	position: relative;
+	transition: all 0.3s ease;
+	width: 283px;
+}
+
+.recruit_btn:hover {
+	border-bottom: 3px solid transparent;
+	border-right: 3px solid transparent;
+	opacity: 0.7;
+}
+
+.recruit_btn:hover .border_arrow {
+	left: -8%;
+}
+
+.recruit_btn .border_arrow {
+	left: -12%;
+	position: absolute;
+	top: 40%;
+	transition: all 0.3s ease;
+}
+
 .footer .l-footer {
 	background: #555;
 }
@@ -1955,6 +1994,14 @@ html {
 }
 
 .contact_btn {
+	font-size: 1.125rem;
+}
+
+.to_recruit {
+	margin-top: 1.5625rem;
+}
+
+.recruit_btn {
 	font-size: 1.125rem;
 }
 

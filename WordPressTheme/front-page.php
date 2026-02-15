@@ -24,6 +24,12 @@
           <div class="border_arrow"></div>
         </a>
       </div>
+      <div class="to_recruit">
+        <a href="<?php echo home_url('/recruit'); ?>" class="recruit_btn">
+          採用情報はこちら  
+          <div class="border_arrow"></div>
+        </a>
+      </div>
     </div>
   </div>
 </section>
