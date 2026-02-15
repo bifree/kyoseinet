@@ -62,36 +62,71 @@
                 </li>
                 <li>
                   江東区<br class="sp_display">
-                  <a href="https://www.city.koto.lg.jp/055202/kurashi/jinken/danjo/center/lgbtsoudan.html" target="_blank" rel="noopener noreferrer" class="link-action">LGBT等電話相談</a>
+                  <a href="https://www.city.koto.lg.jp/055202/kurashi/jinken/danjo/center/lgbtsoudan.html" target="_blank" rel="noopener noreferrer" class="link-action">LGBT等相談</a>
+                </li>
+				  <li>
+					小平市<br class="sp_display">
+                  <a href="https://www.city.kodaira.tokyo.jp/kurashi/096/096722.html" target="_blank" rel="noopener noreferrer" class="link-action">こだいらにじいろ電話相談</a>、
+                  <a href="https://www.city.kodaira.tokyo.jp/kurashi/099/099099.html" target="_blank" rel="noopener noreferrer" class="link-action">こだにじROOM</a>
                 </li>
                 <li>
                   渋谷区<br class="sp_display">
-                  <a href="https://www.shibu-cul.jp/other#link_other01" target="_blank" rel="noopener noreferrer" class="link-action">性的少数者のためのにじいろ電話相談</a>
+                  <a href="https://www.city.shibuya.tokyo.jp/kurashi/madoguchi/taishosha-sodansaki/iris_soudan.html" target="_blank" rel="noopener noreferrer" class="link-action">LGBTQにじいろ電話相談</a>
 				        </li>
                 <li>
+					品川区<br class="sp_display">
+                  <a href="https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-zinken/kuseizyoho-zinken-kyodosankaku/20240510163034.html" target="_blank" rel="noopener noreferrer" class="link-action">にじいろ相談（LGBTQ専門相談）</a>、
+                  <a href="https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-zinken/kuseizyoho-zinken-kyodosankaku/20201118121950.html" target="_blank" rel="noopener noreferrer" class="link-action">LGBT等やその友人、家族向け交流スペース　「みんなのひろば」
+</a>
+                </li>
+                <li>
+					島根県<br class="sp_display">
+                  <a href="https://www.pref.shimane.lg.jp/life/jinken/jinken/lgbtq/shimanenijiirodaiyaru/shimanenijiirodial.html" target="_blank" rel="noopener noreferrer" class="link-action">LGBT等専門電話相談島根にじいろダイヤル</a>
+                </li>
+                <li>
 					        世田谷区（協力）<br class="sp_display">
-                  <a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00120137.html" target="_blank" rel="noopener noreferrer" class="link-action">電話相談</a>、
-                  <a href="https://www.city.setagaya.lg.jp/mokuji/kurashi/008/007/d00152860.html" target="_blank" rel="noopener noreferrer" class="link-action">セクシュアルマイノリティのための世田谷にじいろひろば交流スペース</a>
+                  <a href="https://www.city.setagaya.lg.jp/02409/1033.html" target="_blank" rel="noopener noreferrer" class="link-action">セクシュアルマイノリティのための世田谷にじいろひろば電話相談</a>、
+                  <a href="https://www.city.setagaya.lg.jp/02409/1034.html" target="_blank" rel="noopener noreferrer" class="link-action">セクシュアルマイノリティのための世田谷にじいろひろば 交流スペース</a>
                 </li>
                 <li>
                   多摩市<br class="sp_display">
-                  <a href="https://www.city.tama.lg.jp/0000004348.html" target="_blank" rel="noopener noreferrer" class="link-action">LGBT悩み相談</a>
+					<a href="https://www.city.tama.lg.jp/kenkofukushi/danjyo/josei/1003358.html" target="_blank" rel="noopener noreferrer" class="link-action">LGBT電話相談</a>
                 </li>
                 <li>
                   千代田区<br class="sp_display">
-                  <a href="https://www.city.chiyoda.lg.jp/koho/kurashi/danjo/miw/miw-sodan.html#lgbt" target="_blank" rel="noopener noreferrer" class="link-action">LGBTs相談</a>
+                  <a href="https://www.city.chiyoda.lg.jp/koho/kurashi/danjo/sodammadoguchi/lgbtq.html" target="_blank" rel="noopener noreferrer" class="link-action">LGBTQ相談</a>
                 </li>
                 <li>
+					調布市<br class="sp_display">
+					<a href="https://www.city.chofu.lg.jp/040030/p022011.html" target="_blank" rel="noopener noreferrer" class="link-action">多様な性に関する相談、ちょうふ「NIJiルーム」（LGBTQ＋のためのグループ相談）</a>
+                </li>
+                <li>
+					豊島区<br class="sp_display">
+                  <a href="https://www.city.toshima.lg.jp/051/kuse/danjo/2406052042.html" target="_blank" rel="noopener noreferrer" class="link-action">豊島区にじいろ相談ダイヤル</a>
+                </li>
+				  <li>
                   八王子市<br class="sp_display">
                   <a href="https://www.city.hachioji.tokyo.jp/kurashi/shimin/003/003/lgbt/p024783.html" target="_blank" rel="noopener noreferrer" class="link-action">ＬＧＢＴ電話相談</a>
                 </li>
                 <li>
                   文京区<br class="sp_display">
-                  <a href="https://www.city.bunkyo.lg.jp/kusejoho/jinken/danjo/sogi/sogisalon.html" target="_blank" rel="noopener noreferrer" class="link-action">文京区SOGIサロン</a>
+					<a href="https://www.city.bunkyo.lg.jp/b005/p007707.html" target="_blank" rel="noopener noreferrer" class="link-action">文京区SOGIにじいろサロン</a>
+                </li>
+                <li>
+					三鷹市<br class="sp_display">
+					<a href="https://www.city.mitaka.lg.jp/c_service/094/094479.html" target="_blank" rel="noopener noreferrer" class="link-action">みたかSOGI相談（性の多様性に関する相談）</a>
+                </li>
+                <li>
+					港区<br class="sp_display">
+					<a href="https://www.minatolibra.jp/consult/" target="_blank" rel="noopener noreferrer" class="link-action">みなとレインボー相談</a>
                 </li>
                 <li>
                   武蔵野市<br class="sp_display">
-                  <a href="http://www.city.musashino.lg.jp/kurashi_guide/shiminkatsudo/danjokyodosankaku/danjocenter/1013621/1021831.html" target="_blank" rel="noopener noreferrer" class="link-action">むさしのにじいろ電話相談 (LGBT相談)</a>
+                  <a href="https://www.city.musashino.lg.jp/heiwa_bunka_sports/danjobyodosuisincenter/sodan/1021831.html" target="_blank" rel="noopener noreferrer" class="link-action">むさしのにじいろ相談 (LGBT相談)</a>
+                </li>
+                <li>
+					目黒区<br class="sp_display">
+                  <a href="https://www.city.meguro.tokyo.jp/danjobyoudou/shisetsu/bunkakouryuu/lgbtsodan.html" target="_blank" rel="noopener noreferrer" class="link-action">LGBT相談</a>
                 </li>
 				  <li>
 					  <a href="https://lgbthf.tokyo/" target="_blank" rel="noopener noreferrer" class="link-action">LGBT支援ハウス</a>
@@ -113,12 +148,12 @@
             <dt class="act-item__relation-title">お知らせ：</dt>
             <dd class="act-item__relation-detail">
               <ul>
-                <li>協力実施した支援者養成講座が本になります。<br>
+                <li>協力実施した支援者養成講座が本になりました。<br>
                   <a href="http://www.kamogawa.co.jp/kensaku/syoseki/sa/1179.html" target="_blank" rel="noopener noreferrer" class="link-action">社会福祉法人共生会SHOWA（編著）『性的マイノリティサポートブック』（かもがわ出版）</a>
                 </li>
               </ul>
             </dd>
-          </dl>
+</dl>
         </div>
       </section>
 
@@ -143,10 +178,10 @@
                   <a href="https://nanahota.crayonsite.net/" target="_blank" rel="noopener noreferrer" class="link-action">なないろほたる</a>（川崎市）
                 </li>
                 <li>
-                  <a href="https://rainbowhakodate.wixsite.com/rainbow" target="_blank" rel="noopener noreferrer" class="link-action">レインボーはこだてプロジェクト</a>
+					<a href="https://rainbowhakodate.wixsite.com/rainbow" target="_blank" rel="noopener noreferrer" class="link-action">レインボーはこだてプロジェクト（函館市）</a>
                 </li>
                 <li>
-                  TransVisions（埼玉）
+					<a href="https://lgbtqfriends.hp.peraichi.com/" target="_blank" rel="noopener noreferrer" class="link-action">スカイツリーラインLGBTQ FRIENDS（埼玉）</a>
                 </li>
                 <li>
                   <a href="https://pridehouse.jp/" target="_blank" rel="noopener noreferrer" class="link-action">プライドハウス東京</a>

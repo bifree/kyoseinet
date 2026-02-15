@@ -40,14 +40,10 @@
       <div class="cosu-block__inner contact__inner">
         <h3 class="cosu-block__title contact__title">お問い合わせ</h3>
         <p class="cosu-block__text contact__text">
-          各種お問い合わせにつきましては、こちらのフォームよりお願いいたします。
+			各種お問い合わせにつきましては、こちらのフォームよりお願いいたします。
         </p>
-      </div>
-      <div class="contact-form">
-      <?php echo do_shortcode('[contact-form-7 id="16" title="お問い合わせ"]'); ?>
-      </div>
-    </section>
-  </div>
-</div>
-
+		  <div class="contact-form">
+         <?php echo do_shortcode('[contact-form-7 id="16" title="お問い合わせ"]'); ?>
+        </div>
+   
 <?php get_footer(); ?>

@@ -123,10 +123,6 @@
                   世田谷区男女共同参画センターとの協力でセクシュアルマイノリティ支援者養成研修を実施
                 </li>
                 <li class="chronology__list">
-                  <span class="chronology__date">2020年</span>
-                  函館事務所開設
-                </li>
-                <li class="chronology__list">
                   <span class="chronology__date">2021年</span>
                   共同代表制に移行
                 </li>		  
@@ -158,16 +154,10 @@
                     <dt class="item__list-title">共同代表理事</dt>
                     <dd>原 ミナ汰 ・ 大賀 一樹</dd>
                   </div>
-                  <div class="item__list">
-                    <dt class="item__list-title">役員</dt>
-                    <dd  class="item__list-block">
-                      <ul class="item__list__member">
-						            <li class="item__list__member-name">理事：渡邉 歩、岩﨑徳子、他１名</li>
-                        <li class="item__list__member-name">監事：神谷 悠一</li>
-                        <li class="item__list__member-name">※2021年現在</li>
-                      </ul>
-                    </dd>
-                  </div>
+					<div class="item__list">
+						<dt class="item__list-title">役員</dt>
+						<dd>理事：渡邉 歩、岩﨑 徳子、丸山 まさよし　監事：下平　武</dd>
+					</div>
                   <div class="item__list">
                     <dt class="item__list-title">活動内容</dt>
                     <dd>活動内容の詳細は
@@ -177,13 +167,12 @@
                   <div class="item__list">
 					<dt class="item__list-title">住所</dt>
 					  <div>
-						  <dd>〒113-0033 <br class="sp_display">文京区本郷1-35-28-302 NPO法人共生ネット東京事務所</dd>
-						  <dd>〒040-0044 <br class="sp_display">函館市青柳町10-3-406 NPO法人共生ネット函館事務所</dd>
+						  <dd>〒113-0033 <br class="sp_display">文京区本郷1-35-28-302 NPO法人共生ネット</dd>
 					  </div>
 				  </div>
-                  <div class="item__list">
-                    <dt class="item__list-title">電話/FAX</dt>
-                    <dd>03-5802-6650</dd>
+					 <div class="item__list">
+						 <dt class="item__list-title">郵送先</dt>
+                    <dd>〒040-0044 <br class="sp_display">函館市青柳町10-3-406 NPO法人共生ネット</dd>
                   </div>
                   <div class="item__list">
                     <dt class="item__list-title">メール</dt>
