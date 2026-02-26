@@ -747,6 +747,7 @@ summary {
 	padding: 0.875rem 2.5rem;
 	position: relative;
 	transition: all 0.3s ease;
+	width: 283px;
 }
 
 .contact_btn:hover {
